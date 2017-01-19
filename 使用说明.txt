@@ -1,0 +1,20 @@
+通过ant执行build后，将dist目录下的docker文件拷贝到服务器上，通过里面的Dockerfile-template和Dockerfile分别可以创建出ib-gateway的模板镜像和实际使用镜像，假设docker目录在/tmp下：
+cd /tmp
+mv docker/Dockerfile docker/Dockerfile2
+mv docker/Dockerfile-template docker/Dockerfile
+docker build docker/ -t ib-gateway:template
+mv docker/Dockerfile docker/Dockerfile-template
+mv docker/Dockerfile2 docker/Dockerfile
+docker build docker/ -t ib-gateway:latest
+
+通过以下命令来运行镜像：
+docker run --rm -e VNC_PASSWORD=mypass -p 5900:5900 -p 4003:4003 -ti -v /usr/java/jdk1.8_64:/usr/java/jdk1.8 -v /tmp/ibcontroller/IBController.ini:/ib-gateway/IBController.ini ib-gateway:latest
+以上要求jdk1.8安装在宿主机的 /usr/java/jdk1.8_64 目录下，同时IBController.ini文件也要存放于宿主机的/tmp/ibcontroller目录下
+
+如果使用swarm的话，按如下方式启动：
+docker service create --name gateway -e VNC_PASSWORD=mypass -p 5900:5900 -p 4003:4003 --restart-max-attempts 1 --mount type=bind,target=/etc/resolv.conf,source=/etc/resolv.conf --mount type=bind,target=/usr/java/jdk1.8,source=/usr/java/jdk1.8_64 --mount type=bind,target=/ib-gateway/IBController.ini,source=/tmp/ibcontroller/IBController.ini ib-gateway:latest
+
+
+对于docker镜像里面没有ifconfig命令等解决版本，连入容器后执行：
+apt-get update
+apt-get install net-tools

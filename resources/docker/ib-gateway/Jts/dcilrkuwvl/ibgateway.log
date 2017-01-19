@@ -1,0 +1,1100 @@
+2017-01-13 09:11:52.854 [EB] INFO  [JTS-PostAuthenticateS2-22] - Created on: 20170113
+2017-01-13 09:11:52.854 [EB] INFO  [JTS-PostAuthenticateS2-22] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2017-01-13 09:11:52.854 [EB] INFO  [JTS-PostAuthenticateS2-22] - Build 962.2c, Jan 10, 2017 12:29:39 PM
+2017-01-13 09:11:52.855 [EB] INFO  [JTS-PostAuthenticateS2-22] - Started on 20170113-01:11:52 Europe/London
+2017-01-13 09:11:52.855 [EB] INFO  [JTS-PostAuthenticateS2-22] - java version = 1.8.0_40
+2017-01-13 09:11:52.855 [EB] INFO  [JTS-PostAuthenticateS2-22] - sun.arch.data.model = 64
+2017-01-13 09:11:52.855 [EB] INFO  [JTS-PostAuthenticateS2-22] - os = Windows 7
+2017-01-13 09:11:52.856 [EB] INFO  [JTS-PostAuthenticateS2-22] - os architecture = 64
+2017-01-13 09:11:52.856 [EB] INFO  [JTS-PostAuthenticateS2-22] - runtime = Java(TM) SE Runtime Environment
+2017-01-13 09:11:52.856 [EB] INFO  [JTS-PostAuthenticateS2-22] - vendor = Oracle Corporation
+2017-01-13 09:11:52.856 [EB] INFO  [JTS-PostAuthenticateS2-22] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2017-01-13 09:11:52.856 [EB] INFO  [JTS-PostAuthenticateS2-22] - username = 'sharon'
+2017-01-13 09:11:52.864 [EB] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2017-01-13 09:11:52.864 [EB] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2017-01-13 09:11:52.867 [EB] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2017-01-13 09:11:52.909 [EB] INFO  [JTS-LogonDispatcherS2-26] - Starting dispatcher
+2017-01-13 09:11:52.909 [EB] INFO  [JTS-PostAuthenticateS2-22] - LOGIN_TIME_MONITOR	 false 09:11:52:909 since start = 1929 thread delay = 1929 global delay = 0 tag=Step7, cls=AbstractFixLogonHandler method=setDispatcherAndStartFixLogon
+2017-01-13 09:11:52.909 [EB] INFO  [JTS-PostAuthenticateS2-22] - SPLASH Requesting startup parameters
+2017-01-13 09:11:52.909 [EB] INFO  [JTS-PostAuthenticateS2-22] - SPLASH 0250 step 4 AbstractFixLogonHandler.setDispatcherAndStartFixLogon
+2017-01-13 09:11:52.909 [EB] INFO  [JTS-PostAuthenticateS2-22] - Changing state for connection from PRELOGON to PRELOGON in y 1149494844: SessionSocket:2
+2017-01-13 09:11:52.910 [EB] INFO  [JTS-PostAuthenticateS2-22] - initFixLogonTimezone: userDir=D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\
+2017-01-13 09:11:52.918 [EB] INFO  [JTS-PostAuthenticateS2-22] - initializing fixLogonTimeZone to device default: Asia/Shanghai
+2017-01-13 09:11:52.921 [EB] INFO  [JTS-PostAuthenticateS2-22] - pre-logon message successfully sent
+2017-01-13 09:11:52.921 [EB] INFO  [JTS-PostAuthenticateS2-22] - start ping with 1000 for: JTS-CCPPingS2-27
+2017-01-13 09:11:52.921 [EB] INFO  [JTS-CCPPingS2-27] - Starting ping thread
+2017-01-13 09:11:52.980 [EB] INFO  [JTS-LogonDispatcherS2-26] - Received login
+2017-01-13 09:11:52.982 [EB] INFO  [JTS-LogonDispatcherS2-26] - In AuthenticationProtocol-updateSessionTokenForSimulatedTradingLoginWithLiveUser: changing to read-only token: originalToken=6c52a0ce0befc5c1b24a7f5305acd8da26668988 newReadOnlyToken=61c8fa8d2ad22e8c88752c94bc8b583158fae567
+2017-01-13 09:11:52.982 [EB] INFO  [JTS-LogonDispatcherS2-26] - Changing to PERM_TOKEN in AuthenticationHandler
+2017-01-13 09:11:52.982 [EB] INFO  [JTS-LogonDispatcherS2-26] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=1499373407 new=61c8fa8d2ad22e8c88752c94bc8b583158fae567 old=6c52a0ce0befc5c1b24a7f5305acd8da26668988 ctciOld=NULL
+2017-01-13 09:11:52.983 [EB] INFO  [JTS-LogonDispatcherS2-26] - S3: CCP supports S3
+2017-01-13 09:11:53.024 [EB] INFO  [AWT-EventQueue-0] - Enabled features: null
+2017-01-13 09:11:53.061 [EB] INFO  [AWT-EventQueue-0] - CCP reported time: 2017-01-13 01:10:01.000 (GMT) [1484269801], local time: 2017-01-13 01:11:53.060 (GMT), local time: 2017-01-13 09:11:53.060 (CST), difference in seconds: -112.060 [Login]
+2017-01-13 09:11:53.061 [EB] INFO  [AWT-EventQueue-0] - Setting time offset to -112061 diff -112061
+2017-01-13 09:11:53.069 [EB] INFO  [AWT-EventQueue-0] - manualTicketPermission null
+2017-01-13 09:11:53.081 [EB] INFO  [AWT-EventQueue-0] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'http://download.ibkr.com.cn'.
+2017-01-13 09:11:53.082 [EB] INFO  [AWT-EventQueue-0] - WebRegionURL Path:/java/classes/language.jar URL:http://www.interactivebrokers.com/java/classes/language.jar
+2017-01-13 09:11:53.082 [EB] INFO  [AWT-EventQueue-0] - Starting to download 'http://download.ibkr.com.cn/java/classes/language.jar' using HotBackup 'http://download.ibkr.com.cn/java/classes/language.jar'
+2017-01-13 09:11:53.245 [EB] INFO  [AWT-EventQueue-0] - LOCALE: needToUpdate  dest=D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\language.jar  sourceMod=2017-01-12 20:14:17  destMod=2017-01-05 16:39:13  sourceSize=5962906  destSize=5963823  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=true
+2017-01-13 09:11:53.245 [EB] INFO  [AWT-EventQueue-0] - LOCALE: downloading file D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\language.jar from http://download.ibkr.com.cn/java/classes/language.jar
+2017-01-13 09:11:54.632 [EB] INFO  [JTS-DeadlockMonitor-2] - Memory:total=699,392KB free=647,995KB HeapUsage: Max=699,392KB used=51,396KB committed=107,520KB NonHeapUsage: Max=0KB used=46,505KB committed=47,296KB
+2017-01-13 09:11:55.641 [EB] INFO  [JTS-DeadlockMonitor-2] - CPU:cur=0.39% avg=0.39% 30 min avg=0.39% 5 min avg=0.39% 1 min avg=0.39%
+GC:called=5 times CPU used=0.32%
+Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+Threads Count:curr live=27 curr daemon=16
+2017-01-13 09:12:03.926 [EB] INFO  [JTS-CCPPingS2-27] - Warning: not received heartbeat at 11000 elapsed:11000
+2017-01-13 09:12:04.926 [EB] INFO  [JTS-CCPPingS2-27] - Warning: not received heartbeat at 12000 elapsed:12000
+2017-01-13 09:12:05.926 [EB] INFO  [JTS-CCPPingS2-27] - Warning: not received heartbeat at 13000 elapsed:13000
+2017-01-13 09:12:06.926 [EB] INFO  [JTS-CCPPingS2-27] - Warning: not received heartbeat at 14000 elapsed:14000
+2017-01-13 09:12:07.926 [EB] INFO  [JTS-CCPPingS2-27] - Warning: sending test request at 15000
+2017-01-13 09:12:07.969 [EB] INFO  [JTS-LogonDispatcherS2-26] - Received heartbeat
+2017-01-13 09:12:18.928 [EB] INFO  [JTS-CCPPingS2-27] - Warning: not received heartbeat at 26000 elapsed:11000
+2017-01-13 09:12:19.928 [EB] INFO  [JTS-CCPPingS2-27] - Warning: not received heartbeat at 27000 elapsed:12000
+2017-01-13 09:12:20.928 [EB] INFO  [JTS-CCPPingS2-27] - Warning: not received heartbeat at 28000 elapsed:13000
+2017-01-13 09:12:21.928 [EB] INFO  [JTS-CCPPingS2-27] - Warning: not received heartbeat at 29000 elapsed:14000
+2017-01-13 09:12:22.928 [EB] INFO  [JTS-CCPPingS2-27] - Warning: sending test request at 30000
+2017-01-13 09:12:22.971 [EB] INFO  [JTS-LogonDispatcherS2-26] - Received heartbeat
+2017-01-13 09:12:27.332 [EB] INFO  [AWT-EventQueue-0] - Finished downloading file: /java/classes/language.jar, startPosition=0, totalBytesRead=5962906, fileLen=5962906
+2017-01-13 09:12:27.339 [EB] INFO  [AWT-EventQueue-0] - LOCALE: finished downloading D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\language.jar
+2017-01-13 09:12:27.348 [EB] INFO  [AWT-EventQueue-0] - LOCALE: created classloader java.net.URLClassLoader@5a24c2bc with file:/D:/data/pipa/ibgateway的docker文件/Jts/dcilrkuwvl/language.jar, parent: sun.misc.Launcher$AppClassLoader@1540e19d
+2017-01-13 09:12:27.349 [EB] INFO  [AWT-EventQueue-0] - Locale=en_US  country=United States  variant=
+2017-01-13 09:12:27.349 [EB] INFO  [AWT-EventQueue-0] - prohibiting class lookup [ji18n.Language]
+2017-01-13 09:12:27.413 [EB] INFO  [AWT-EventQueue-0] - prohibiting class lookup [ji18n.Language_en]
+2017-01-13 09:12:27.417 [EB] INFO  [AWT-EventQueue-0] - prohibiting class lookup [ji18n.Language_en_US]
+2017-01-13 09:12:27.417 [EB] INFO  [AWT-EventQueue-0] - prohibiting resource lookup [ji18n/Language_en_US.properties]
+2017-01-13 09:12:27.423 [EB] INFO  [AWT-EventQueue-0] - LOCALE: type: full intended: en_US actual: en size: 15815
+2017-01-13 09:12:27.423 [EB] INFO  [AWT-EventQueue-0] - prohibiting class lookup [risknav.ji18n.RiskNavLanguage]
+2017-01-13 09:12:27.423 [EB] INFO  [AWT-EventQueue-0] - prohibiting class lookup [risknav.ji18n.RiskNavLanguage_en]
+2017-01-13 09:12:27.423 [EB] INFO  [AWT-EventQueue-0] - prohibiting class lookup [risknav.ji18n.RiskNavLanguage_en_US]
+2017-01-13 09:12:27.423 [EB] INFO  [AWT-EventQueue-0] - IA Warn! Couldn't load default risknav bundle for locale en_US, using default values in RiskNav
+2017-01-13 09:12:27.445 [EB] INFO  [AWT-EventQueue-0] - S3: checkbox was not checked by user
+2017-01-13 09:12:28.126 [EB] INFO  [AWT-EventQueue-0] - IBGateway connection to ccp succeeded
+2017-01-13 09:12:28.127 [EB] INFO  [AWT-EventQueue-0] - LOGIN_TIME_MONITOR	 false 09:12:28:127 since start = 37147 thread delay = 35218 global delay = 0 tag=Step6, cls=GatewayAdapter method=loginSuccess-1
+2017-01-13 09:12:28.127 [EB] INFO  [AWT-EventQueue-0] - SPLASH Loading resources
+2017-01-13 09:12:28.127 [EB] INFO  [AWT-EventQueue-0] - SPLASH 35218 step 5 GatewayAdapter.loginSuccess-1
+2017-01-13 09:12:28.182 [EB] INFO  [AWT-EventQueue-0] - Currencies:[AUD, CAD, CHF, EUR, GBP, HKD, JPY, KRW, SEK, MXN, NOK, USD, BASE] Default:[AUD, CAD, CHF, EUR, GBP, HKD, JPY, KRW, SEK, MXN, NOK, USD, BASE]
+2017-01-13 09:12:28.255 [EB] INFO  [AWT-EventQueue-0] - LOGIN_TIME_MONITOR	 false 09:12:28:255 since start = 37275 thread delay = 128 global delay = 128 tag=Step4, cls=JConQueryTool method=JConQueryTool()-1
+2017-01-13 09:12:28.255 [EB] INFO  [AWT-EventQueue-0] - SPLASH Initializing environment
+2017-01-13 09:12:28.282 [EB] INFO  [JTS-Async-28] - Starting async queue thread
+2017-01-13 09:12:28.283 [EB] INFO  [JTS-AsyncNonLocked-29] - Starting async queue thread
+2017-01-13 09:12:28.295 [EB] INFO  [AWT-EventQueue-0] - Created API Access manager
+2017-01-13 09:12:28.302 [EB] INFO  [AWT-EventQueue-0] - JConQueryTool()-2
+2017-01-13 09:12:28.302 [EB] INFO  [AWT-EventQueue-0] - LOGIN_TIME_MONITOR	 false 09:12:28:302 since start = 37322 thread delay = 47 global delay = 47 tag=Step15, cls=GatewayAdapter method=loginSuccess-2
+2017-01-13 09:12:28.302 [EB] INFO  [AWT-EventQueue-0] - SPLASH Initializing resources
+2017-01-13 09:12:28.303 [EB] INFO  [AWT-EventQueue-0] - Attempt to save the last connected host mcgw1.ibllc.com.cn:4000 with 0 ms delay
+2017-01-13 09:12:28.305 [EB] INFO  [JTS-LogonDispatcherS2-26] - Terminating dispatcher
+2017-01-13 09:12:28.306 [EB] INFO  [JTS-CCPDispatcherS2-33] - Starting dispatcher
+2017-01-13 09:12:28.306 [EB] INFO  [AWT-EventQueue-0] - Currencies:[AUD, CAD, CHF, CNH, DKK, EUR, GBP, HKD, JPY, KRW, MXN, NOK, NZD, RUB, SEK, SGD, USD, ZAR, BASE] Default:[AUD, CAD, CHF, CNH, DKK, EUR, GBP, HKD, JPY, KRW, MXN, NOK, NZD, RUB, SEK, SGD, USD, ZAR, BASE]
+2017-01-13 09:12:28.307 [EB] INFO  [AWT-EventQueue-0] - Enabled features: null
+2017-01-13 09:12:28.313 [EB] INFO  [AWT-EventQueue-0] - CCP reported time: 2017-01-13 01:10:01.000 (GMT) [1484269801], local time: 2017-01-13 01:12:28.312 (GMT), local time: 2017-01-13 09:12:28.312 (CST), difference in seconds: -147.312 [Login]
+2017-01-13 09:12:28.313 [EB] INFO  [AWT-EventQueue-0] - Setting time offset to -147313 diff -35252
+2017-01-13 09:12:28.313 [EB] INFO  [AWT-EventQueue-0] - manualTicketPermission null
+2017-01-13 09:12:28.314 [EB] INFO  [AWT-EventQueue-0] - Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+2017-01-13 09:12:28.315 [EB] INFO  [AWT-EventQueue-0] - LOGIN_TIME_MONITOR	 false 09:12:28:314 since start = 37334 thread delay = 12 global delay = 12 tag=Step4, cls=JConQueryTool method=handlePreLogon
+2017-01-13 09:12:28.315 [EB] INFO  [AWT-EventQueue-0] - SPLASH Initializing environment
+2017-01-13 09:12:28.316 [EB] INFO  [AWT-EventQueue-0] - Handling prelogon msg NORMAL
+2017-01-13 09:12:28.316 [EB] INFO  [AWT-EventQueue-0] - control.init() session:2
+2017-01-13 09:12:28.887 [EB] INFO  [AWT-EventQueue-0] - EXEC Creating ExecReportMgr
+2017-01-13 09:12:29.067 [EB] INFO  [JTS-TypeAheadSecDefProcessor-37] - Started request processor.
+2017-01-13 09:12:29.067 [EB] INFO  [JTS-TypeAheadSecDefProcessor-37] - Acquiring a send permit...
+2017-01-13 09:12:29.067 [EB] INFO  [JTS-TypeAheadSecDefProcessor-37] - Waiting for a new message...
+2017-01-13 09:12:29.075 [EB] INFO  [AWT-EventQueue-0] - Market rule file D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\Fri.rul does not exist or is removed
+2017-01-13 09:12:29.180 [EB] INFO  [AWT-EventQueue-0] - autoexport set to stop: /home/gushaorong/Jts/, start: , stop: 
+2017-01-13 09:12:29.185 [EB] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:12:29.185 [EB] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:12:29.185 [EB] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:12:29.185 [EB] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:12:29.185 [EB] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:12:29.185 [EB] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:12:29.247 [EB] INFO  [AWT-EventQueue-0] - JConQueryTool.init()-3
+2017-01-13 09:12:29.248 [EB] INFO  [AWT-EventQueue-0] - JConQueryTool.init()-4
+2017-01-13 09:12:29.493 [EB] INFO  [AWT-EventQueue-0] - Resetting seqNum during preLogon  resetTime=  logonResetTime=null
+2017-01-13 09:12:29.494 [EB] INFO  [AWT-EventQueue-0] - Changing state for connection from PRELOGON to LOGON in y 1149494844: SessionSocket:2
+2017-01-13 09:12:29.495 [EB] INFO  [AWT-EventQueue-0] - Changing state for connection from LOGON to FIX_SESSION_REQUEST in y 1149494844: SessionSocket:2
+2017-01-13 09:12:29.506 [EB] INFO  [AWT-EventQueue-0] - SSL support status for mcgw1.ibllc.com.cn:4000 is true
+2017-01-13 09:12:29.508 [EB] INFO  [AWT-EventQueue-0] - Saved peer:mcgw1.ibllc.com.cn:4000
+2017-01-13 09:12:29.536 [EB] INFO  [JTS-CCPDispatcherS2-33] - OvernightManager.dayInit: new values: dayOfTheWeek: 6 (Fri), YYYYMMofToday: 201701, YYYYMMDDofToday: 20170113, m_todayDate: 20170113, dueToChangeInTimezone: false
+2017-01-13 09:12:29.626 [EB] INFO  [JTS-CCPDispatcherS2-33] - Received login
+2017-01-13 09:12:29.629 [EB] INFO  [JTS-CCPDispatcherS2-33] - Currencies:[AUD, CAD, CHF, CNH, DKK, EUR, GBP, HKD, JPY, KRW, MXN, NOK, NZD, RUB, SEK, SGD, USD, ZAR, BASE] Default:[AUD, CAD, CHF, CNH, DKK, EUR, GBP, HKD, JPY, KRW, MXN, NOK, NZD, RUB, SEK, SGD, USD, ZAR, BASE]
+2017-01-13 09:12:29.630 [EB] INFO  [JTS-CCPDispatcherS2-33] - Enabled features: 1DAYSORDER,ACCTALL,ACCTSUM,AD,ALGODEF,ALGOMONEY,APIELOG,AUTOINSTALL,AWAYCMTAREV,BBTV,BESTCLCR,BESTSCHED,BETAHEDGE,BLOTTERGROUPS,BONDMENU,BONDNETCOND,BT1,CASHQTY,CFD4CASH,CHILDCANCELPARENT,CLOSEPOS,CLOUD,CLOUDSCAN,CMAG,COMBLAST,COMBOCFG,COMBOFLIP,COMBOPL,COMBOPOS,COMBOSCAN,COMPN,CONSTOP,CONTSORT,CRORDER,CURRENTPRICEANDSIZE,DAYLINEUP,DCCDC,DELAYMD,DELTAHEDGE,EARLYEX,ESIGNAL,EVAPI,EXERCISE,EXERPPTC,EXTATTACH,FACLOSE,FANGCOMB,FARMTOKEN,FROZEN,FUNDNT,FXCONV,FXHEDGE,FXSUBPIP,FYI,GREEKLIST,HALTED,HEDGECFD,HOMEGROUP,IBBOT,IBIS,ICSLEG,IECOMBO1TO1,IECOMBOLEGMOD,IECOMBONESTED,IECOMBOPERLEGPRICE,IECOMBORELLMT,IGNOREYTW,ISW,JBA,LEDGER,LEGMARKUP,LESSWARN,LIGHTWTNLV,LYTLIB,MANGAWAY,MANUALSCALE,MDEXCH,MFCMP,MFCMPAD,MKTADDLIQ,MKTGUARD,MODELAVGPRICE,MODELDLV,MODELFARM,MODELIECOMBONG,MODELPL,MODELS,MOSAIC,MSOWN,MTA,NATGCOMB,NDMDERR,NEWFUTSEL,NEWOPTSEL,NEW_AUTH,NINDX,NOFMINUS,NONEWOPTUI,NONUSCOMBO,NONUSWHATIF,NOT2D,NSCAN,OFCLS,PAIRCOMBO,PAIRTRADE,PCTCHANGE,PHIST,PL,PLROLL,POSTXPMRG,PRBBTYLAB,PROBLABS3,RELIND,REUTFUND,REVOCEX,REVOCLAPSE,RPTCSHN,SCALEALLOC,SCALEDAYADJUST,SCALEFRAC,SCALEMOD,SCALEMODEL,SCALERANDOMIZE,SCALETIMEMOD,SCALETIMEMOD1,SCALEWHATIF,SECDEFLN,SEPLAST,SHOWLEGSEPARATE,SIMUPORTF,SLB,SLBCOND,SLOWPOSUPD,SMODELS,STOPPROFITOFFSET,STRATLAB,TAPE,TICKUNIT,UCALENDAR,UNRLAST,USEPARENTENDTIME,VIRTSEC,VOLAT,VOLATFUT,VOLATILITYLAB,WGVISIBILITY,CUSIP:550;551,DATABOOST:600;601,MOODY:524,SP:524,WSH:509;510
+2017-01-13 09:12:29.637 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:38.000 (GMT) [1484269838], local time: 2017-01-13 01:12:29.637 (GMT), local time: 2017-01-13 09:12:29.637 (CST), difference in seconds: -111.637 [Login]
+2017-01-13 09:12:29.637 [EB] INFO  [JTS-CCPDispatcherS2-33] - Setting time offset to -111637 diff 35676
+2017-01-13 09:12:29.638 [EB] INFO  [JTS-CCPDispatcherS2-33] - manualTicketPermission null
+2017-01-13 09:12:29.638 [EB] INFO  [JTS-CCPDispatcherS2-33] - Changing state for connection from FIX_SESSION_REQUEST to FIX_SESSION_OPEN in y 1149494844: SessionSocket:2
+2017-01-13 09:12:29.638 [EB] INFO  [JTS-CCPDispatcherS2-33] - Handling normal logon msg NORMAL, wasConnected=false session:2
+2017-01-13 09:12:29.638 [EB] INFO  [JTS-CCPDispatcherS2-33] - Processing normal logon msg
+2017-01-13 09:12:29.639 [EB] INFO  [JTS-CCPDispatcherS2-33] - Check settings BatchRequests are back:0 res:true
+2017-01-13 09:12:29.639 [EB] INFO  [JTS-CCPDispatcherS2-33] - Restart quick=false cold=false logon=NORMAL batch=true
+2017-01-13 09:12:29.639 [EB] INFO  [JTS-CCPDispatcherS2-33] - SPLASH Processing startup parameters
+2017-01-13 09:12:29.639 [EB] INFO  [JTS-CCPDispatcherS2-33] - SPLASH 1512 step 6 JConQueryTool.processNormalLogon1-1
+2017-01-13 09:12:29.639 [EB] INFO  [JTS-CCPDispatcherS2-33] - Processing normal logon 1
+2017-01-13 09:12:29.655 [EB] INFO  [JTS-CCPDispatcherS2-33] - Updating seqNum during normal logon with 1
+2017-01-13 09:12:29.655 [EB] INFO  [JTS-CCPDispatcherS2-33] - Max API Backfill Years is set to 199
+2017-01-13 09:12:29.656 [EB] INFO  [JTS-CCPDispatcherS2-33] - Fast lockout exchanges:null
+2017-01-13 09:12:29.656 [EB] INFO  [JTS-CCPDispatcherS2-33] - API Max tickers=100, TWS Max tickers=100
+2017-01-13 09:12:29.657 [EB] INFO  [JTS-CCPDispatcherS2-33] - Split BidAsk/Last requests:true
+2017-01-13 09:12:29.657 [EB] INFO  [JTS-CCPDispatcherS2-33] - Combo Last requests:true
+2017-01-13 09:12:29.657 [EB] INFO  [JTS-CCPDispatcherS2-33] - Split BidAsk/Last requests:true
+2017-01-13 09:12:29.658 [EB] INFO  [JTS-CCPDispatcherS2-33] - Olympiad mode
+2017-01-13 09:12:29.659 [EB] INFO  [JTS-CCPDispatcherS2-33] - In AccountManager.updatePendingAccounts(): tag=8092 val=[null]
+2017-01-13 09:12:29.659 [EB] INFO  [JTS-CCPDispatcherS2-33] - effectivePnLTimeZone=Asia/Shanghai, effectivePnLTimeZoneId=Asia/Shanghai, rolling=true
+2017-01-13 09:12:29.660 [EB] INFO  [JTS-CCPDispatcherS2-33] - OvernightManager timezone set to [TimeZoneHolder [rollingTimeZone=true, timeZoneStr=Asia/Shanghai, TimeZone=sun.util.calendar.ZoneInfo[id="Asia/Shanghai",offset=28800000,dstSavings=0,useDaylight=false,transitions=19,lastRule=null]]];  original=[null]
+2017-01-13 09:12:29.660 [EB] INFO  [JTS-CCPDispatcherS2-33] - OvernightManager.dayInit: new values: dayOfTheWeek: 6 (Fri), YYYYMMofToday: 201701, YYYYMMDDofToday: 20170113, m_todayDate: 20170113, dueToChangeInTimezone: true
+2017-01-13 09:12:29.660 [EB] INFO  [JTS-CCPDispatcherS2-33] - Requesting compatible routing MARKET_DATA from CompatibleFarmEndPoints [md=mcgw1.ibllc.com.cn:4000, mdFarm=hfarm, hmds=hdc1.ibllc.com:4000, hmdsFarm=hkhmds, secdef=hdc1.ibllc.com:4000, secdefFarm=secdefhk]
+2017-01-13 09:12:29.671 [EB] INFO  [JTS-CCPDispatcherS2-33] - Farm hfarm/UNCONNECTED: Creating ServiceConnection for:hfarm
+2017-01-13 09:12:29.671 [EB] INFO  [JTS-CCPDispatcherS2-33] - Farm hfarm/UNCONNECTED: Adding message to queue 0 
+2017-01-13 09:12:29.671 [EB] INFO  [JTS-CCPDispatcherS2-33] - Farm hfarm/UNCONNECTED: Starting connection thread
+2017-01-13 09:12:29.675 [EB] INFO  [JTS-hfarmServiceConnector-40] - Farm hfarm/STARTING: Connecting via ccp conman (hfarm)...
+2017-01-13 09:12:29.676 [EB] INFO  [JTS-hfarmServiceConnector-40] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:12:29.676 [EB] INFO  [JTS-hfarmServiceConnector-40] - CONN CALC: Last connection set as now:09:12:29:676
+2017-01-13 09:12:29.706 [EB] INFO  [JTS-CCPDispatcherS2-33] - Connection store:aQ - disconnect all farms due to competing session
+2017-01-13 09:12:29.706 [EB] INFO  [JTS-CCPDispatcherS2-33] - Connection store:aS - disconnect all farms due to competing session
+2017-01-13 09:12:29.706 [EB] INFO  [JTS-CCPDispatcherS2-33] - Connection store:aR - disconnect all farms due to competing session
+2017-01-13 09:12:29.718 [EB] INFO  [JTS-hfarmServiceConnector-40] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11496
+2017-01-13 09:12:29.718 [EB] INFO  [JTS-hfarmServiceConnector-40] - Farm hfarm/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:12:29.718 [EB] INFO  [JTS-hfarmServiceConnector-40] - Added to valid hosts list: mcgw1.ibllc.com.cn
+2017-01-13 09:12:29.740 [EB] INFO  [JTS-hfarmListenerS3-41] - Starting Listener thread
+2017-01-13 09:12:29.743 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - Starting dispatcher
+2017-01-13 09:12:29.744 [EB] INFO  [JTS-hfarmServiceConnector-40] - Created JTS-CommonScheduler-44
+2017-01-13 09:12:29.748 [EB] INFO  [JTS-hfarmListenerS3-41] - Initial listener buffer size is 8192
+2017-01-13 09:12:29.820 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:12:29.820 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:12:29.820 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:12:29.821 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - Current time is: 20170113-01:12:29 Europe/London
+2017-01-13 09:12:29.827 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - CipherContext initialization successed.
+2017-01-13 09:12:29.828 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:29.828 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - AuthTimeoutMonitor: timeout=20000
+2017-01-13 09:12:29.828 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - AuthTimeoutMonitor: activate
+2017-01-13 09:12:29.830 [EB] INFO  [JTS-AuthTimeoutMonitorThread-45] - Starting auth timeout monitor thread
+2017-01-13 09:12:29.831 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - start ping with 5000 for: JTS-hfarmServicePreAuthPingS3-46
+2017-01-13 09:12:29.831 [EB] INFO  [JTS-hfarmServicePreAuthPingS3-46] - Starting ping thread
+2017-01-13 09:12:29.839 [EB] INFO  [JTS-CCPDispatcherS2-33] - SPLASH 0200 step 7 JConQueryTool.processNormalLogon1-3
+2017-01-13 09:12:29.839 [EB] INFO  [JTS-CCPDispatcherS2-33] - ModelSummaryRequestMgr init
+2017-01-13 09:12:29.840 [EB] INFO  [JTS-AsyncNonLocked-29] - CM sendAccountSubscription called for DU565809.
+2017-01-13 09:12:29.840 [EB] INFO  [JTS-CCPDispatcherS2-33] - SPLASH Loading order defaults
+2017-01-13 09:12:29.844 [EB] INFO  [JTS-CCPDispatcherS2-33] - Restore OrderDefaultSet from settings.xml
+2017-01-13 09:12:29.850 [EB] INFO  [JTS-CCPDispatcherS2-33] - No defaults for: CMDTY
+2017-01-13 09:12:29.850 [EB] INFO  [JTS-CCPDispatcherS2-33] - SPLASH Initializing managers
+2017-01-13 09:12:29.857 [EB] INFO  [JTS-CCPDispatcherS2-33] - Enabling IA
+2017-01-13 09:12:29.857 [EB] INFO  [JTS-SocketListener-47] - API server listening on port 4002
+2017-01-13 09:12:29.857 [EB] INFO  [JTS-SocketListener-47] - API in Read-Only mode: true
+2017-01-13 09:12:29.863 [EB] INFO  [JTS-CCPDispatcherS2-33] - Jolt Build 1.7.0; Nov 17, 2016 09:51:32 AM
+2017-01-13 09:12:29.863 [EB] INFO  [JTS-CCPDispatcherS2-33] - Nia Build 2.11.2; Oct 27, 2016 11:36:08 AM
+2017-01-13 09:12:29.863 [EB] INFO  [JTS-CCPDispatcherS2-33] - ModelNav Build 1.5.1; Oct 27, 2016 05:46:44 PM
+2017-01-13 09:12:29.863 [EB] INFO  [JTS-CCPDispatcherS2-33] - RiskFeed Build 2.21.0; Dec 8, 2016 09:50:24 AM
+2017-01-13 09:12:29.906 [EB] INFO  [JTS-CCPDispatcherS2-33] - Starting IA session
+2017-01-13 09:12:29.927 [EB] INFO  [JTS-CCPDispatcherS2-33] - SPLASH Starting application
+2017-01-13 09:12:29.927 [EB] INFO  [JTS-CCPDispatcherS2-33] - Processing normal logon 2
+2017-01-13 09:12:29.927 [EB] INFO  [JTS-CCPDispatcherS2-33] - Processing normal logon 3
+2017-01-13 09:12:29.928 [EB] INFO  [JTS-CCPDispatcherS2-33] - TradeRequests:ExecReportMgr-restoreExecutions: sending trades request for un-initialized storage: date=Fri Jan 13 09:10:38 CST 2017 readingMode=ReportStorageReadingMode ALL
+2017-01-13 09:12:29.929 [EB] INFO  [JTS-CCPDispatcherS2-33] - TradeDaysMgr - reconnect fillups started.
+2017-01-13 09:12:29.929 [EB] INFO  [JTS-ExecNotifier-34] - Starting async queue thread
+2017-01-13 09:12:29.929 [EB] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ExecReportMgr-restoreExecutions_: trades file not found D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\Fri.trd
+2017-01-13 09:12:29.930 [EB] INFO  [AWT-EventQueue-0] - SPLASH Closing screen and saving 7 steps
+2017-01-13 09:12:29.930 [EB] INFO  [JTS-CCPDispatcherS2-33] - Check settings BatchRequests are back:2 res:true
+2017-01-13 09:12:29.931 [EB] INFO  [JTS-RestoreExecutions-49] - Combo transfer file D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\Fri.trx is not present
+2017-01-13 09:12:29.931 [EB] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ReportStorage-sendWholeDayRequest: , requestId=today2, date=Fri Jan 13 09:10:38 CST 2017, key=Fri
+2017-01-13 09:12:29.934 [EB] INFO  [JTS-CCPDispatcherS2-33] - LOGIN_TIME_MONITOR	 false 09:12:29:934 since start = 38954 thread delay = 1620 global delay = 0 tag=TURN OFF, cls=DelayReporter method=turnOff
+2017-01-13 09:12:29.935 [EB] INFO  [JTS-CCPDispatcherS2-33] - Re-trying background batch requests:[]
+2017-01-13 09:12:29.935 [EB] INFO  [JTS-CCPDispatcherS2-33] - Current date:20170113 same:true
+2017-01-13 09:12:29.935 [EB] INFO  [JTS-CCPDispatcherS2-33] - Current order recovery state:NONE
+2017-01-13 09:12:29.936 [EB] INFO  [JTS-CCPDispatcherS2-33] - Changing state for connection from FIX_SESSION_OPEN to LOGGEDON in y 1149494844: SessionSocket:2
+2017-01-13 09:12:29.938 [EB] INFO  [JTS-RestoreExecutions-49] - Sending trade request from 20170112-16:00:00 to 20170113-16:00:00
+2017-01-13 09:12:29.940 [EB] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ExecReportMgr-Clearing Models
+2017-01-13 09:12:29.941 [EB] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ExecReportMgr-Sending position request
+2017-01-13 09:12:29.936 [EB] INFO  [JTS-Cleaner-31] - market data wrapper, cleaning maps
+2017-01-13 09:12:29.943 [EB] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ExecReportMgr-Sending ledger request
+2017-01-13 09:12:30.275 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:38.000 (GMT) [1484269838], local time: 2017-01-13 01:12:30.275 (GMT), local time: 2017-01-13 09:12:30.275 (CST), difference in seconds: -112.275 [TestReq]
+2017-01-13 09:12:30.275 [EB] INFO  [JTS-CCPDispatcherS2-33] - Setting time offset to -112275 diff -638
+2017-01-13 09:12:30.309 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.310 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.310 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.310 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.313 [EB] INFO  [JTS-CCPDispatcherS2-33] - Received live orders end marker session:2
+2017-01-13 09:12:30.314 [EB] INFO  [JTS-CCPDispatcherS2-33] - Storage synced: ReportStorage[Fri, today=true]
+2017-01-13 09:12:30.314 [EB] INFO  [JTS-HmdsRouting requestor-48] - Requesting compatible routing HISTORICAL_DATA from CompatibleFarmEndPoints [md=mcgw1.ibllc.com.cn:4000, mdFarm=hfarm, hmds=hdc1.ibllc.com:4000, hmdsFarm=hkhmds, secdef=hdc1.ibllc.com:4000, secdefFarm=secdefhk]
+2017-01-13 09:12:30.314 [EB] INFO  [JTS-HmdsRouting requestor-48] - Farm hkhmds/UNCONNECTED: Creating ServiceConnection for:hkhmds
+2017-01-13 09:12:30.315 [EB] INFO  [JTS-HmdsRouting requestor-48] - Farm hkhmds/UNCONNECTED: Adding message to queue 0 
+2017-01-13 09:12:30.315 [EB] INFO  [JTS-HmdsRouting requestor-48] - Farm hkhmds/UNCONNECTED: Starting connection thread
+2017-01-13 09:12:30.315 [EB] INFO  [JTS-AsyncNonLocked-29] - Starting compressor
+2017-01-13 09:12:30.316 [EB] INFO  [JTS-AsyncNonLocked-29] - Shutting down compressor.
+2017-01-13 09:12:30.317 [EB] INFO  [JTS-AsyncNonLocked-29] - Can't send less than 23 bytes
+2017-01-13 09:12:30.317 [EB] INFO  [JTS-AsyncNonLocked-29] - Entering long time mode
+2017-01-13 09:12:30.317 [EB] INFO  [JTS-AsyncNonLocked-29] - CM setting requested account spec to DU565809.
+2017-01-13 09:12:30.319 [EB] INFO  [JTS-AsyncNonLocked-29] - send account subscription: FixAccountRequest id=AR.1 account=DU565809. subscricbe=true lw=false
+2017-01-13 09:12:30.320 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:38.000 (GMT) [1484269838], local time: 2017-01-13 01:12:30.320 (GMT), local time: 2017-01-13 09:12:30.320 (CST), difference in seconds: -112.320 [TestReq]
+2017-01-13 09:12:30.327 [EB] INFO  [JTS-CCPDispatcherS2-33] - Lightweight position response received: [DU565809.] subscribed: false
+2017-01-13 09:12:30.327 [EB] INFO  [JTS-AsyncNonLocked-29] - Successfully ?: true sent request: FixAccountRequest id=AR.1 account=DU565809. subscricbe=true lw=false
+2017-01-13 09:12:30.335 [EB] INFO  [JTS-CCPDispatcherS2-33] - UpdateRecordsForAccount: DU565809. acctPositions size 3 fullReport=true
+2017-01-13 09:12:30.347 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:38.000 (GMT) [1484269838], local time: 2017-01-13 01:12:30.347 (GMT), local time: 2017-01-13 09:12:30.347 (CST), difference in seconds: -112.347 [TestReq]
+2017-01-13 09:12:30.369 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:38.000 (GMT) [1484269838], local time: 2017-01-13 01:12:30.369 (GMT), local time: 2017-01-13 09:12:30.369 (CST), difference in seconds: -112.369 [TestReq]
+2017-01-13 09:12:30.371 [EB] INFO  [JTS-hfarmListenerS3-41] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:12:30.373 [EB] INFO  [JTS-hfarmListenerS3-41] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:12:30.374 [EB] INFO  [JTS-hfarmServicePreAuthPingS3-46] - Terminating ping thread
+2017-01-13 09:12:30.375 [EB] INFO  [JTS-hfarmListenerS3-41] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:30.378 [EB] INFO  [JTS-AuthTimeoutMonitorThread-45] - Terminating auth timeout monitor thread
+2017-01-13 09:12:30.378 [EB] INFO  [JTS-hfarmDispatcherS3-42S3-43] - Terminating dispatcher
+2017-01-13 09:12:30.380 [EB] INFO  [JTS-hfarmListenerS3-41] - Terminating Listener thread
+2017-01-13 09:12:30.383 [EB] INFO  [JTS-DisconnectedS3-51] - Farm hfarm/PRE_CCP: Disconnected during auth
+2017-01-13 09:12:30.385 [EB] INFO  [JTS-DisconnectedS3-51] - CONN CALC: :0 next attempt: 09:12:36:490 delay:6105ms; LastAttempt:09:12:29:676 socketTimeout:20sec;  base=0 range=5000 delayFactor:1.0
+2017-01-13 09:12:30.385 [EB] INFO  [JTS-DisconnectedS3-51] - CONN CALC: Timeout increased base=5000 range=10000
+2017-01-13 09:12:30.385 [EB] INFO  [JTS-DisconnectedS3-51] - CONN CALC: Last disconnect time set as now:09:12:30:385
+2017-01-13 09:12:30.387 [EB] INFO  [AWT-EventQueue-0] - Monitor: Monitor: Primary m_origin [java.awt.Point[x=0,y=0]] m_size [java.awt.Dimension[width=1366,height=728]]m_insets [java.awt.Insets[top=0,left=0,bottom=40,right=0]]m_toolkitInsets [java.awt.Insets[top=0,left=0,bottom=40,right=0]]m_fullBounds [java.awt.Rectangle[x=0,y=0,width=1366,height=768]]
+2017-01-13 09:12:30.387 [EB] INFO  [AWT-EventQueue-0] - Monitor: Monitor: m_origin [java.awt.Point[x=-1920,y=0]] m_size [java.awt.Dimension[width=1920,height=1080]]m_insets [java.awt.Insets[top=0,left=0,bottom=0,right=0]]m_toolkitInsets [java.awt.Insets[top=0,left=0,bottom=0,right=0]]m_fullBounds [java.awt.Rectangle[x=-1920,y=0,width=1920,height=1080]]
+2017-01-13 09:12:30.387 [EB] INFO  [AWT-EventQueue-0] - Virtual: Monitor: m_origin [java.awt.Point[x=-1920,y=0]] m_size [java.awt.Dimension[width=3286,height=1080]]m_insets [java.awt.Insets[top=0,left=0,bottom=0,right=0]]m_toolkitInsets [null]m_fullBounds [java.awt.Rectangle[x=-1920,y=0,width=3286,height=1080]]
+2017-01-13 09:12:30.465 [EB] INFO  [JTS-CCPDispatcherS2-33] - CM Received account reset event. AccountCode|DU565809|1484269839, AccountType|INDIVIDUAL|1484269838, AccountReady|true|1484269838 for Request=AR.1 Saved Request=AR.1 Account=DU565809.
+2017-01-13 09:12:30.467 [EB] INFO  [JTS-CCPDispatcherS2-33] - CM IB PORT DU565809./1/1027556115: Received account reset event:DU565809.
+2017-01-13 09:12:30.494 [EB] INFO  [JTS-hkhmdsServiceConnector-50] - Farm hkhmds/STARTING: Connecting natively (hkhmds)...
+2017-01-13 09:12:30.496 [EB] INFO  [JTS-hkhmdsServiceConnector-50] - Connecting hdc1.ibllc.com:4000 timeout=0
+2017-01-13 09:12:30.497 [EB] INFO  [JTS-hkhmdsServiceConnector-50] - CONN CALC: Last connection set as now:09:12:30:497
+2017-01-13 09:12:30.503 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.503 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.503 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.503 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.537 [EB] INFO  [JTS-hkhmdsServiceConnector-50] - Connected to hdc1.ibllc.com:4000 on local port 0 socket local addrs:port /192.168.70.148:11497
+2017-01-13 09:12:30.537 [EB] INFO  [JTS-hkhmdsServiceConnector-50] - Farm hkhmds/PRE_NATIVE: Connected, sending secure connect and/or auth
+2017-01-13 09:12:30.538 [EB] INFO  [JTS-hkhmdsServiceConnector-50] - Added to valid hosts list: hdc1.ibllc.com
+2017-01-13 09:12:30.545 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - Starting dispatcher
+2017-01-13 09:12:30.546 [EB] INFO  [JTS-hkhmdsListenerS4-53] - Starting Listener thread
+2017-01-13 09:12:30.547 [EB] INFO  [JTS-hkhmdsListenerS4-53] - Initial listener buffer size is 8192
+2017-01-13 09:12:30.577 [EB] INFO  [JTS-CCPDispatcherS2-33] - Updating base currency: accountSpec=DU565809., currency=USD
+2017-01-13 09:12:30.578 [EB] INFO  [JTS-CCPDispatcherS2-33] - =---> ACCOUNT END6529=AR.1
+2017-01-13 09:12:30.588 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.588 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.588 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.588 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.617 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:12:30.617 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:12:30.617 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:12:30.618 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - Current time is: 20170113-01:12:30 Europe/London
+2017-01-13 09:12:30.622 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - CipherContext initialization successed.
+2017-01-13 09:12:30.622 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:30.622 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - AuthTimeoutMonitor: timeout=20000
+2017-01-13 09:12:30.623 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - AuthTimeoutMonitor: activate
+2017-01-13 09:12:30.624 [EB] INFO  [JTS-AuthTimeoutMonitorThread-56] - Starting auth timeout monitor thread
+2017-01-13 09:12:30.624 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - start ping with 5000 for: JTS-hkhmdsServicePreAuthPingS4-57
+2017-01-13 09:12:30.625 [EB] INFO  [JTS-hkhmdsServicePreAuthPingS4-57] - Starting ping thread
+2017-01-13 09:12:30.651 [EB] INFO  [AWT-EventQueue-0] - Plugin Name: Configuration loaded in 1
+2017-01-13 09:12:30.654 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.654 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.689 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.689 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:30.733 [EB] INFO  [JTS-Async-28] - Initializing PortfolioAnalysisController
+2017-01-13 09:12:30.736 [EB] INFO  [JTS-Async-28] - CM IB PORT DU565809./1/1027556115: Finished loading portfolio
+2017-01-13 09:12:30.921 [EB] INFO  [AWT-EventQueue-0] - Plugin Name: Settings loaded in 51
+2017-01-13 09:12:30.999 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:39.000 (GMT) [1484269839], local time: 2017-01-13 01:12:30.998 (GMT), local time: 2017-01-13 09:12:30.998 (CST), difference in seconds: -111.998 [TestReq]
+2017-01-13 09:12:31.001 [EB] INFO  [JTS-hkhmdsListenerS4-53] - Error reading from socket hdc1.ibllc.com:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:12:31.001 [EB] INFO  [JTS-hkhmdsListenerS4-53] - Disconnecting hdc1.ibllc.com:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:12:31.002 [EB] INFO  [JTS-hkhmdsDispatcherS4-54S4-55] - Terminating dispatcher
+2017-01-13 09:12:31.001 [EB] INFO  [JTS-hkhmdsListenerS4-53] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:31.003 [EB] INFO  [JTS-hkhmdsServicePreAuthPingS4-57] - Terminating ping thread
+2017-01-13 09:12:31.004 [EB] INFO  [JTS-AuthTimeoutMonitorThread-56] - Terminating auth timeout monitor thread
+2017-01-13 09:12:31.005 [EB] INFO  [JTS-hkhmdsListenerS4-53] - Terminating Listener thread
+2017-01-13 09:12:31.005 [EB] INFO  [JTS-DisconnectedS4-58] - Farm hkhmds/PRE_NATIVE: Disconnected during auth
+2017-01-13 09:12:31.006 [EB] INFO  [JTS-DisconnectedS4-58] - Not exhausted because hdc1.ibllc.com was connected
+2017-01-13 09:12:31.006 [EB] INFO  [JTS-DisconnectedS4-58] - CONN CALC: :0 next attempt: 09:12:33:901 delay:2895ms; LastAttempt:09:12:30:497 socketTimeout:20sec;  base=0 range=5000 delayFactor:1.0
+2017-01-13 09:12:31.007 [EB] INFO  [JTS-DisconnectedS4-58] - CONN CALC: Timeout increased base=5000 range=10000
+2017-01-13 09:12:31.007 [EB] INFO  [JTS-DisconnectedS4-58] - CONN CALC: Last disconnect time set as now:09:12:31:007
+2017-01-13 09:12:31.013 [EB] INFO  [AWT-EventQueue-0] -  Resetting the socket listener port.
+2017-01-13 09:12:33.016 [EB] INFO  [JTS-SocketListener-62] - API server listening on port 4003
+2017-01-13 09:12:33.016 [EB] INFO  [JTS-SocketListener-62] - API in Read-Only mode: true
+2017-01-13 09:12:33.907 [EB] INFO  [JTS-Fuse-nativepause-59] - Farm hkhmds/DISCONNECTED: Connecting via ccp conman (hkhmds)...
+2017-01-13 09:12:33.907 [EB] INFO  [JTS-Fuse-nativepause-59] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:12:33.907 [EB] INFO  [JTS-Fuse-nativepause-59] - CONN CALC: Last connection set as now:09:12:33:907
+2017-01-13 09:12:33.949 [EB] INFO  [JTS-Fuse-nativepause-59] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11498
+2017-01-13 09:12:33.949 [EB] INFO  [JTS-Fuse-nativepause-59] - Farm hkhmds/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:12:33.949 [EB] INFO  [JTS-Fuse-nativepause-59] - Added to valid hosts list: mcgw1.ibllc.com.cn
+2017-01-13 09:12:33.950 [EB] INFO  [JTS-hkhmdsListenerS5-63] - Starting Listener thread
+2017-01-13 09:12:33.954 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - Starting dispatcher
+2017-01-13 09:12:33.955 [EB] INFO  [JTS-hkhmdsListenerS5-63] - Initial listener buffer size is 8192
+2017-01-13 09:12:34.031 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:12:34.032 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:12:34.032 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:12:34.034 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - Current time is: 20170113-01:12:34 Europe/London
+2017-01-13 09:12:34.054 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - CipherContext initialization successed.
+2017-01-13 09:12:34.055 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:34.055 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - AuthTimeoutMonitor: timeout=20000
+2017-01-13 09:12:34.055 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - AuthTimeoutMonitor: activate
+2017-01-13 09:12:34.059 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - start ping with 5000 for: JTS-hkhmdsServicePreAuthPingS5-67
+2017-01-13 09:12:34.059 [EB] INFO  [JTS-AuthTimeoutMonitorThread-66] - Starting auth timeout monitor thread
+2017-01-13 09:12:34.060 [EB] INFO  [JTS-hkhmdsServicePreAuthPingS5-67] - Starting ping thread
+2017-01-13 09:12:34.151 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:42.000 (GMT) [1484269842], local time: 2017-01-13 01:12:34.150 (GMT), local time: 2017-01-13 09:12:34.150 (CST), difference in seconds: -112.150 [TestReq]
+2017-01-13 09:12:34.152 [EB] INFO  [JTS-hkhmdsListenerS5-63] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:12:34.152 [EB] INFO  [JTS-hkhmdsListenerS5-63] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:12:34.152 [EB] INFO  [JTS-AuthTimeoutMonitorThread-66] - Terminating auth timeout monitor thread
+2017-01-13 09:12:34.152 [EB] INFO  [JTS-hkhmdsListenerS5-63] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:34.153 [EB] INFO  [JTS-hkhmdsServicePreAuthPingS5-67] - Terminating ping thread
+2017-01-13 09:12:34.153 [EB] INFO  [JTS-hkhmdsDispatcherS5-64S5-65] - Terminating dispatcher
+2017-01-13 09:12:34.153 [EB] INFO  [JTS-DisconnectedS5-68] - Farm hkhmds/PRE_CCP: Disconnected during auth
+2017-01-13 09:12:34.154 [EB] INFO  [JTS-hkhmdsListenerS5-63] - Terminating Listener thread
+2017-01-13 09:12:34.161 [EB] INFO  [JTS-DisconnectedS5-68] - CONN CALC: :0 next attempt: 09:12:45:809 delay:11655ms; LastAttempt:09:12:33:907 socketTimeout:30sec;  base=5000 range=10000 delayFactor:1.0
+2017-01-13 09:12:34.161 [EB] INFO  [JTS-DisconnectedS5-68] - CONN CALC: Timeout increased base=15000 range=15000
+2017-01-13 09:12:34.161 [EB] INFO  [JTS-DisconnectedS5-68] - CONN CALC: Last disconnect time set as now:09:12:34:161
+2017-01-13 09:12:35.578 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.578 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.578 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.578 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.578 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.578 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.579 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.579 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.600 [EB] INFO  [AWT-EventQueue-0] - Plugin Name: Configuration loaded in 4
+2017-01-13 09:12:35.636 [EB] INFO  [AWT-EventQueue-0] - Plugin Name: Settings loaded in 13
+2017-01-13 09:12:35.655 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.655 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.693 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:35.693 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:36.492 [EB] INFO  [JTS-Fuse-ccppause-52] - Farm hfarm/DISCONNECTED: Connecting via ccp conman (hfarm)...
+2017-01-13 09:12:36.492 [EB] INFO  [JTS-Fuse-ccppause-52] - AsyncDisconnectNotifiers:1
+2017-01-13 09:12:36.492 [EB] INFO  [JTS-Fuse-ccppause-52] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:12:36.493 [EB] INFO  [JTS-Fuse-ccppause-52] - CONN CALC: Last connection set as now:09:12:36:492
+2017-01-13 09:12:36.534 [EB] INFO  [JTS-Fuse-ccppause-52] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11499
+2017-01-13 09:12:36.534 [EB] INFO  [JTS-Fuse-ccppause-52] - Farm hfarm/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:12:36.536 [EB] INFO  [JTS-hfarmListenerS6-70] - Starting Listener thread
+2017-01-13 09:12:36.540 [EB] INFO  [JTS-hfarmListenerS6-70] - Initial listener buffer size is 8192
+2017-01-13 09:12:36.539 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - Starting dispatcher
+2017-01-13 09:12:36.640 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:12:36.640 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:12:36.648 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:12:36.650 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - Current time is: 20170113-01:12:36 Europe/London
+2017-01-13 09:12:36.662 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - CipherContext initialization successed.
+2017-01-13 09:12:36.663 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:36.663 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - AuthTimeoutMonitor: timeout=20000
+2017-01-13 09:12:36.663 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - AuthTimeoutMonitor: activate
+2017-01-13 09:12:36.670 [EB] INFO  [JTS-AuthTimeoutMonitorThread-73] - Starting auth timeout monitor thread
+2017-01-13 09:12:36.670 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - start ping with 5000 for: JTS-hfarmServicePreAuthPingS6-74
+2017-01-13 09:12:36.671 [EB] INFO  [JTS-hfarmServicePreAuthPingS6-74] - Starting ping thread
+2017-01-13 09:12:36.805 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:45.000 (GMT) [1484269845], local time: 2017-01-13 01:12:36.804 (GMT), local time: 2017-01-13 09:12:36.804 (CST), difference in seconds: -111.804 [TestReq]
+2017-01-13 09:12:36.806 [EB] INFO  [JTS-hfarmListenerS6-70] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:12:36.806 [EB] INFO  [JTS-hfarmListenerS6-70] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:12:36.807 [EB] INFO  [JTS-hfarmListenerS6-70] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:36.807 [EB] INFO  [JTS-hfarmListenerS6-70] - Terminating Listener thread
+2017-01-13 09:12:36.808 [EB] INFO  [JTS-hfarmServicePreAuthPingS6-74] - Terminating ping thread
+2017-01-13 09:12:36.809 [EB] INFO  [JTS-AuthTimeoutMonitorThread-73] - Terminating auth timeout monitor thread
+2017-01-13 09:12:36.810 [EB] INFO  [JTS-DisconnectedS6-75] - Farm hfarm/PRE_CCP: Disconnected during auth
+2017-01-13 09:12:36.810 [EB] INFO  [JTS-DisconnectedS6-75] - CONN CALC: :0 next attempt: 09:12:46:834 delay:10024ms; LastAttempt:09:12:36:492 socketTimeout:30sec;  base=5000 range=10000 delayFactor:1.0
+2017-01-13 09:12:36.810 [EB] INFO  [JTS-DisconnectedS6-75] - CONN CALC: Timeout increased base=15000 range=15000
+2017-01-13 09:12:36.811 [EB] INFO  [JTS-DisconnectedS6-75] - CONN CALC: Last disconnect time set as now:09:12:36:810
+2017-01-13 09:12:36.811 [EB] INFO  [JTS-hfarmDispatcherS6-71S6-72] - Terminating dispatcher
+2017-01-13 09:12:36.811 [EB] INFO  [JTS-DisconnectedS6-75] - Unable to connect to MARKET_DATA farm through ccp conman after 2 attempts
+2017-01-13 09:12:37.586 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:46.000 (GMT) [1484269846], local time: 2017-01-13 01:12:37.585 (GMT), local time: 2017-01-13 09:12:37.585 (CST), difference in seconds: -111.585 [TestReq]
+2017-01-13 09:12:37.587 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:46.000 (GMT) [1484269846], local time: 2017-01-13 01:12:37.587 (GMT), local time: 2017-01-13 09:12:37.587 (CST), difference in seconds: -111.587 [CCPTime]
+2017-01-13 09:12:37.588 [EB] INFO  [JTS-CCPDispatcherS2-33] - Setting time offset to -111587 diff 688
+2017-01-13 09:12:45.817 [EB] INFO  [JTS-Fuse-ccppause-69] - Farm hkhmds/DISCONNECTED: Connecting via ccp conman (hkhmds)...
+2017-01-13 09:12:45.817 [EB] INFO  [JTS-Fuse-ccppause-69] - AsyncDisconnectNotifiers:1
+2017-01-13 09:12:45.817 [EB] INFO  [JTS-Fuse-ccppause-69] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:12:45.817 [EB] INFO  [JTS-Fuse-ccppause-69] - CONN CALC: Last connection set as now:09:12:45:817
+2017-01-13 09:12:45.859 [EB] INFO  [JTS-Fuse-ccppause-69] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11501
+2017-01-13 09:12:45.859 [EB] INFO  [JTS-Fuse-ccppause-69] - Farm hkhmds/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:12:45.860 [EB] INFO  [JTS-hkhmdsListenerS7-78] - Starting Listener thread
+2017-01-13 09:12:45.864 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - Starting dispatcher
+2017-01-13 09:12:45.865 [EB] INFO  [JTS-hkhmdsListenerS7-78] - Initial listener buffer size is 8192
+2017-01-13 09:12:45.941 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:12:45.942 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:12:45.943 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:12:45.944 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - Current time is: 20170113-01:12:45 Europe/London
+2017-01-13 09:12:45.952 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - CipherContext initialization successed.
+2017-01-13 09:12:45.953 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:45.953 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - AuthTimeoutMonitor: timeout=30000
+2017-01-13 09:12:45.953 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - AuthTimeoutMonitor: activate
+2017-01-13 09:12:45.956 [EB] INFO  [JTS-AuthTimeoutMonitorThread-81] - Starting auth timeout monitor thread
+2017-01-13 09:12:45.957 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - start ping with 5000 for: JTS-hkhmdsServicePreAuthPingS7-82
+2017-01-13 09:12:45.958 [EB] INFO  [JTS-hkhmdsServicePreAuthPingS7-82] - Starting ping thread
+2017-01-13 09:12:46.270 [EB] INFO  [JTS-CCPDispatcherS2-33] - Updating base currency: accountSpec=DU565809., currency=USD
+2017-01-13 09:12:46.274 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:54.000 (GMT) [1484269854], local time: 2017-01-13 01:12:46.273 (GMT), local time: 2017-01-13 09:12:46.273 (CST), difference in seconds: -112.273 [TestReq]
+2017-01-13 09:12:46.275 [EB] INFO  [JTS-hkhmdsListenerS7-78] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:12:46.275 [EB] INFO  [JTS-hkhmdsListenerS7-78] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:12:46.276 [EB] INFO  [JTS-hkhmdsListenerS7-78] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:46.276 [EB] INFO  [JTS-hkhmdsListenerS7-78] - Terminating Listener thread
+2017-01-13 09:12:46.277 [EB] INFO  [JTS-hkhmdsServicePreAuthPingS7-82] - Terminating ping thread
+2017-01-13 09:12:46.277 [EB] INFO  [JTS-AuthTimeoutMonitorThread-81] - Terminating auth timeout monitor thread
+2017-01-13 09:12:46.277 [EB] INFO  [JTS-DisconnectedS7-83] - Farm hkhmds/PRE_CCP: Disconnected during auth
+2017-01-13 09:12:46.278 [EB] INFO  [JTS-hkhmdsDispatcherS7-79S7-80] - Terminating dispatcher
+2017-01-13 09:12:46.278 [EB] INFO  [JTS-DisconnectedS7-83] - CONN CALC: :0 next attempt: 09:13:11:492 delay:25214ms; LastAttempt:09:12:45:817 socketTimeout:30sec;  base=15000 range=15000 delayFactor:1.0
+2017-01-13 09:12:46.278 [EB] INFO  [JTS-DisconnectedS7-83] - CONN CALC: Timeout increased base=30000 range=20000
+2017-01-13 09:12:46.278 [EB] INFO  [JTS-DisconnectedS7-83] - CONN CALC: Last disconnect time set as now:09:12:46:278
+2017-01-13 09:12:46.278 [EB] INFO  [JTS-DisconnectedS7-83] - Unable to connect to HISTORICAL_DATA farm through ccp conman after 2 attempts
+2017-01-13 09:12:46.837 [EB] INFO  [JTS-Fuse-ccppause-76] - Farm hfarm/DISCONNECTED: Connecting via ccp conman (hfarm)...
+2017-01-13 09:12:46.837 [EB] INFO  [JTS-Fuse-ccppause-76] - AsyncDisconnectNotifiers:1
+2017-01-13 09:12:46.837 [EB] INFO  [JTS-Fuse-ccppause-76] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:12:46.837 [EB] INFO  [JTS-Fuse-ccppause-76] - CONN CALC: Last connection set as now:09:12:46:837
+2017-01-13 09:12:46.879 [EB] INFO  [JTS-Fuse-ccppause-76] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11502
+2017-01-13 09:12:46.879 [EB] INFO  [JTS-Fuse-ccppause-76] - Farm hfarm/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:12:46.892 [EB] INFO  [JTS-hfarmListenerS8-85] - Starting Listener thread
+2017-01-13 09:12:46.892 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - Starting dispatcher
+2017-01-13 09:12:46.893 [EB] INFO  [JTS-hfarmListenerS8-85] - Initial listener buffer size is 8192
+2017-01-13 09:12:46.963 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:12:46.963 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:12:46.964 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:12:46.965 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - Current time is: 20170113-01:12:46 Europe/London
+2017-01-13 09:12:46.971 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - CipherContext initialization successed.
+2017-01-13 09:12:46.972 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:46.972 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - AuthTimeoutMonitor: timeout=30000
+2017-01-13 09:12:46.978 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - AuthTimeoutMonitor: activate
+2017-01-13 09:12:46.979 [EB] INFO  [JTS-AuthTimeoutMonitorThread-88] - Starting auth timeout monitor thread
+2017-01-13 09:12:46.979 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - start ping with 5000 for: JTS-hfarmServicePreAuthPingS8-89
+2017-01-13 09:12:46.980 [EB] INFO  [JTS-hfarmServicePreAuthPingS8-89] - Starting ping thread
+2017-01-13 09:12:47.101 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:10:55.000 (GMT) [1484269855], local time: 2017-01-13 01:12:47.100 (GMT), local time: 2017-01-13 09:12:47.100 (CST), difference in seconds: -112.100 [TestReq]
+2017-01-13 09:12:47.102 [EB] INFO  [JTS-hfarmListenerS8-85] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:12:47.102 [EB] INFO  [JTS-hfarmListenerS8-85] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:12:47.103 [EB] INFO  [JTS-hfarmListenerS8-85] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:12:47.103 [EB] INFO  [JTS-hfarmServicePreAuthPingS8-89] - Terminating ping thread
+2017-01-13 09:12:47.103 [EB] INFO  [JTS-AuthTimeoutMonitorThread-88] - Terminating auth timeout monitor thread
+2017-01-13 09:12:47.104 [EB] INFO  [JTS-hfarmDispatcherS8-86S8-87] - Terminating dispatcher
+2017-01-13 09:12:47.104 [EB] INFO  [JTS-hfarmListenerS8-85] - Terminating Listener thread
+2017-01-13 09:12:47.105 [EB] INFO  [JTS-DisconnectedS8-90] - Farm hfarm/PRE_CCP: Disconnected during auth
+2017-01-13 09:12:47.106 [EB] INFO  [JTS-DisconnectedS8-90] - CONN CALC: :0 next attempt: 09:13:03:849 delay:16743ms; LastAttempt:09:12:46:837 socketTimeout:30sec;  base=15000 range=15000 delayFactor:1.0
+2017-01-13 09:12:47.106 [EB] INFO  [JTS-DisconnectedS8-90] - CONN CALC: Timeout increased base=30000 range=20000
+2017-01-13 09:12:47.106 [EB] INFO  [JTS-DisconnectedS8-90] - CONN CALC: Last disconnect time set as now:09:12:47:106
+2017-01-13 09:12:47.106 [EB] INFO  [JTS-DisconnectedS8-90] - Unable to connect to MARKET_DATA farm through ccp conman after 3 attempts
+2017-01-13 09:12:52.493 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: feature.configure.al[Configuration,271,41,800x660,invalid,layout=java.awt.BorderLayout,MODELESS,title=DU565809 Trader Workstation Configuration (Simulated Trading),defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,800x660,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:12:52.493 [EB] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: feature.configure.al[Configuration,271,41,800x660,invalid,layout=java.awt.BorderLayout,MODELESS,title=DU565809 Trader Workstation Configuration (Simulated Trading),defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,800x660,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:03.851 [EB] INFO  [JTS-Fuse-ccppause-91] - Farm hfarm/DISCONNECTED: Connecting via ccp conman (hfarm)...
+2017-01-13 09:13:03.851 [EB] INFO  [JTS-Fuse-ccppause-91] - AsyncDisconnectNotifiers:1
+2017-01-13 09:13:03.851 [EB] INFO  [JTS-Fuse-ccppause-91] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:13:03.851 [EB] INFO  [JTS-Fuse-ccppause-91] - CONN CALC: Last connection set as now:09:13:03:851
+2017-01-13 09:13:03.894 [EB] INFO  [JTS-Fuse-ccppause-91] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11503
+2017-01-13 09:13:03.894 [EB] INFO  [JTS-Fuse-ccppause-91] - Farm hfarm/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:13:03.894 [EB] INFO  [JTS-hfarmListenerS9-92] - Starting Listener thread
+2017-01-13 09:13:03.896 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - Starting dispatcher
+2017-01-13 09:13:03.897 [EB] INFO  [JTS-hfarmListenerS9-92] - Initial listener buffer size is 8192
+2017-01-13 09:13:03.974 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:13:03.974 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:13:03.975 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:13:03.976 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - Current time is: 20170113-01:13:03 Europe/London
+2017-01-13 09:13:03.983 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - CipherContext initialization successed.
+2017-01-13 09:13:03.984 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:03.984 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - AuthTimeoutMonitor: timeout=30000
+2017-01-13 09:13:03.985 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - AuthTimeoutMonitor: activate
+2017-01-13 09:13:03.988 [EB] INFO  [JTS-AuthTimeoutMonitorThread-95] - Starting auth timeout monitor thread
+2017-01-13 09:13:03.988 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - start ping with 5000 for: JTS-hfarmServicePreAuthPingS9-96
+2017-01-13 09:13:03.989 [EB] INFO  [JTS-hfarmServicePreAuthPingS9-96] - Starting ping thread
+2017-01-13 09:13:04.184 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:12.000 (GMT) [1484269872], local time: 2017-01-13 01:13:04.183 (GMT), local time: 2017-01-13 09:13:04.183 (CST), difference in seconds: -112.183 [TestReq]
+2017-01-13 09:13:04.185 [EB] INFO  [JTS-CCPDispatcherS2-33] - Setting time offset to -112185 diff -598
+2017-01-13 09:13:04.186 [EB] INFO  [JTS-hfarmListenerS9-92] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:13:04.186 [EB] INFO  [JTS-hfarmListenerS9-92] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:13:04.186 [EB] INFO  [JTS-hfarmListenerS9-92] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:04.186 [EB] INFO  [JTS-AuthTimeoutMonitorThread-95] - Terminating auth timeout monitor thread
+2017-01-13 09:13:04.187 [EB] INFO  [JTS-hfarmDispatcherS9-93S9-94] - Terminating dispatcher
+2017-01-13 09:13:04.188 [EB] INFO  [JTS-hfarmServicePreAuthPingS9-96] - Terminating ping thread
+2017-01-13 09:13:04.189 [EB] INFO  [JTS-DisconnectedS9-97] - Farm hfarm/PRE_CCP: Disconnected during auth
+2017-01-13 09:13:04.190 [EB] INFO  [JTS-DisconnectedS9-97] - CONN CALC: :0 next attempt: 09:13:40:480 delay:36290ms; LastAttempt:09:13:03:851 socketTimeout:30sec;  base=30000 range=20000 delayFactor:1.0
+2017-01-13 09:13:04.190 [EB] INFO  [JTS-DisconnectedS9-97] - CONN CALC: Timeout increased base=50000 range=20000
+2017-01-13 09:13:04.190 [EB] INFO  [JTS-DisconnectedS9-97] - CONN CALC: Last disconnect time set as now:09:13:04:190
+2017-01-13 09:13:04.190 [EB] INFO  [JTS-DisconnectedS9-97] - Unable to connect to MARKET_DATA farm through ccp conman after 4 attempts
+2017-01-13 09:13:04.188 [EB] INFO  [JTS-hfarmListenerS9-92] - Terminating Listener thread
+2017-01-13 09:13:10.326 [EB] INFO  [AWT-EventQueue-0] - Read-Only API: false
+2017-01-13 09:13:10.329 [EB] INFO  [AWT-EventQueue-0] - Allow connections from localhost only: false
+2017-01-13 09:13:11.495 [EB] INFO  [JTS-Fuse-ccppause-84] - Farm hkhmds/DISCONNECTED: Connecting via ccp conman (hkhmds)...
+2017-01-13 09:13:11.495 [EB] INFO  [JTS-Fuse-ccppause-84] - AsyncDisconnectNotifiers:1
+2017-01-13 09:13:11.495 [EB] INFO  [JTS-Fuse-ccppause-84] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:13:11.495 [EB] INFO  [JTS-Fuse-ccppause-84] - CONN CALC: Last connection set as now:09:13:11:495
+2017-01-13 09:13:11.537 [EB] INFO  [JTS-Fuse-ccppause-84] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11504
+2017-01-13 09:13:11.537 [EB] INFO  [JTS-Fuse-ccppause-84] - Farm hkhmds/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:13:11.538 [EB] INFO  [JTS-hkhmdsListenerS10-100] - Starting Listener thread
+2017-01-13 09:13:11.543 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - Starting dispatcher
+2017-01-13 09:13:11.544 [EB] INFO  [JTS-hkhmdsListenerS10-100] - Initial listener buffer size is 8192
+2017-01-13 09:13:11.627 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:13:11.627 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:13:11.628 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:13:11.629 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - Current time is: 20170113-01:13:11 Europe/London
+2017-01-13 09:13:11.635 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - CipherContext initialization successed.
+2017-01-13 09:13:11.636 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:11.636 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - AuthTimeoutMonitor: timeout=30000
+2017-01-13 09:13:11.637 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - AuthTimeoutMonitor: activate
+2017-01-13 09:13:11.641 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - start ping with 5000 for: JTS-hkhmdsServicePreAuthPingS10-104
+2017-01-13 09:13:11.647 [EB] INFO  [JTS-AuthTimeoutMonitorThread-103] - Starting auth timeout monitor thread
+2017-01-13 09:13:11.649 [EB] INFO  [JTS-hkhmdsServicePreAuthPingS10-104] - Starting ping thread
+2017-01-13 09:13:11.729 [EB] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:20.000 (GMT) [1484269880], local time: 2017-01-13 01:13:11.728 (GMT), local time: 2017-01-13 09:13:11.728 (CST), difference in seconds: -111.728 [TestReq]
+2017-01-13 09:13:11.730 [EB] INFO  [JTS-hkhmdsListenerS10-100] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:13:11.730 [EB] INFO  [JTS-hkhmdsListenerS10-100] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:13:11.730 [EB] INFO  [JTS-hkhmdsListenerS10-100] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:11.730 [EB] INFO  [JTS-hkhmdsServicePreAuthPingS10-104] - Terminating ping thread
+2017-01-13 09:13:11.730 [EB] INFO  [JTS-hkhmdsDispatcherS10-101S10-102] - Terminating dispatcher
+2017-01-13 09:13:11.731 [EB] INFO  [JTS-hkhmdsListenerS10-100] - Terminating Listener thread
+2017-01-13 09:13:11.731 [EB] INFO  [JTS-AuthTimeoutMonitorThread-103] - Terminating auth timeout monitor thread
+2017-01-13 09:13:11.732 [EB] INFO  [JTS-DisconnectedS10-105] - Farm hkhmds/PRE_CCP: Disconnected during auth
+2017-01-13 09:13:11.733 [EB] INFO  [JTS-DisconnectedS10-105] - CONN CALC: :0 next attempt: 09:13:54:202 delay:42469ms; LastAttempt:09:13:11:495 socketTimeout:30sec;  base=30000 range=20000 delayFactor:1.0
+2017-01-13 09:13:11.733 [EB] INFO  [JTS-DisconnectedS10-105] - CONN CALC: Timeout increased base=50000 range=20000
+2017-01-13 09:13:11.733 [EB] INFO  [JTS-DisconnectedS10-105] - CONN CALC: Last disconnect time set as now:09:13:11:733
+2017-01-13 09:13:11.733 [EB] INFO  [JTS-DisconnectedS10-105] - Unable to connect to HISTORICAL_DATA farm through ccp conman after 3 attempts
+2017-01-13 09:13:12.746 [EB] INFO  [AWT-EventQueue-0] - called cleanupMktSrvr
+2017-01-13 09:13:12.746 [EB] INFO  [AWT-EventQueue-0] - Destroy async. services.
+2017-01-13 09:13:12.746 [EB] INFO  [AWT-EventQueue-0] - destroyAsyncServices Started
+2017-01-13 09:13:12.746 [EB] INFO  [AWT-EventQueue-0] - Destroying today's records
+2017-01-13 09:13:12.747 [EB] INFO  [AWT-EventQueue-0] - Destroying MD connection Manager
+2017-01-13 09:13:12.748 [EB] INFO  [AWT-EventQueue-0] - Destroying Scheduler
+2017-01-13 09:13:12.750 [EB] INFO  [JTS-Async-28] - Terminating async queue thread
+2017-01-13 09:13:12.750 [EB] INFO  [AWT-EventQueue-0] - Destroying SnoozerFactory
+2017-01-13 09:13:12.750 [EB] INFO  [AWT-EventQueue-0] - Destroying MKT Data Wrapper
+2017-01-13 09:13:12.750 [EB] INFO  [JTS-AsyncNonLocked-29] - Terminating async queue thread
+2017-01-13 09:13:12.750 [EB] INFO  [AWT-EventQueue-0] - Destroying MKT Data MGR
+2017-01-13 09:13:12.751 [EB] INFO  [AWT-EventQueue-0] - Destroying SecDef Mgr
+2017-01-13 09:13:12.751 [EB] INFO  [AWT-EventQueue-0] - Destroying ACT Mgr
+2017-01-13 09:13:12.753 [EB] INFO  [AWT-EventQueue-0] - Destroying NewsFacade
+2017-01-13 09:13:12.756 [EB] INFO  [AWT-EventQueue-0] - Destroying Book
+2017-01-13 09:13:12.757 [EB] INFO  [AWT-EventQueue-0] - destroyAsyncServices Done
+2017-01-13 09:13:12.757 [EB] INFO  [AWT-EventQueue-0] - Terminating Queues.
+2017-01-13 09:13:12.757 [EB] INFO  [AWT-EventQueue-0] - Done Terminating Queues
+2017-01-13 09:13:12.758 [EB] INFO  [AWT-EventQueue-0] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_EXIT_SESSION
+2017-01-13 09:13:12.759 [EB] INFO  [JTS-CCPPingS2-27] - Terminating ping thread
+2017-01-13 09:13:12.759 [EB] INFO  [AWT-EventQueue-0] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:12.760 [EB] INFO  [JTS-CCPListenerS2-15] - Socket for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2017-01-13 09:13:12.760 [EB] INFO  [JTS-CCPDispatcherS2-33] - Terminating dispatcher
+2017-01-13 09:13:12.762 [EB] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2017-01-13 09:13:12.763 [EB] INFO  [JTS-CCPListenerS2-15] - Terminating Listener thread
+2017-01-13 09:13:12.773 [EB] INFO  [JTS-DisconnectedS2-107] - Before clearing batch requets for:2 settings-state:true settings:0
+2017-01-13 09:13:12.773 [EB] INFO  [JTS-DisconnectedS2-107] - Connection to ccp disconnected.
+2017-01-13 09:13:12.773 [EB] INFO  [JTS-DisconnectedS2-107] - JSONSecDefFarmConnector onDisconnected
+2017-01-13 09:13:12.773 [EB] INFO  [JTS-DisconnectedS2-107] - Storing background batch requests for retry:[]
+2017-01-13 09:13:12.773 [EB] INFO  [JTS-DisconnectedS2-107] - Disconnected from a CCP. Cleaning up state...
+2017-01-13 09:13:12.773 [EB] INFO  [JTS-DisconnectedS2-107] - Releasing the send permit...
+2017-01-13 09:13:12.773 [EB] INFO  [JTS-DisconnectedS2-107] - Remove all completed orders
+2017-01-13 09:13:12.774 [EB] INFO  [JTS-DisconnectedS2-107] - IBGateway connection to ccp disconnected.
+2017-01-13 09:13:12.778 [EB] INFO  [AWT-EventQueue-0] - Started invoke 'exitSessionGracefully' in AWT thread. In event thread = true
+2017-01-13 09:13:12.778 [EB] INFO  [AWT-EventQueue-0] - Started 'saveSettingsAndExitSession'
+2017-01-13 09:13:12.778 [EB] INFO  [AWT-EventQueue-0] - saveSettingsAndExitSession
+2017-01-13 09:13:12.781 [EB] INFO  [AWT-EventQueue-0] - Shutdown started. 21 tasks to execute.
+2017-01-13 09:13:12.792 [EB] INFO  [JTS-AsyncQueryManager-111] - Starting async query manager
+2017-01-13 09:13:12.805 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - |rfODM|odmtp.a@464a7281 | <init>()#89 | Creating odm transporter | 0 | 
+2017-01-13 09:13:12.827 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - Nia working directory: D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\
+2017-01-13 09:13:12.828 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - |NIA|com.ib.nia.control.k@75484ab9 | <init>()#39 | Sys TimeZone | Asia/Shanghai | TimeZoneOffset | -43200000 | EST5EDT | 
+2017-01-13 09:13:12.844 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - |NIA|com.ib.nia.histdb.h | a()#197 | NIA2 db exists. Loading persisted NIA configs... | 
+2017-01-13 09:13:12.845 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - |NIA|com.ib.nia.histdb.h@4a774b2a | b()#110 | connecting to NIA RDBMS... | TWS | jdbc:hsqldb:D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\nia2 | 
+2017-01-13 09:13:13.291 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - |NIA|com.ib.nia.histdb.h@4a774b2a | b()#115 | Connection done. | 2.2.2 | 
+2017-01-13 09:13:13.386 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - |NIA|com.ib.nia.histdb.d | a()#53 | Use predefined table | DefaultVolCurveChannels | 
+2017-01-13 09:13:13.388 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - |NIA|com.ib.nia.histdb.d | a()#60 | Removed stale historical data record no:  | 0 | 
+2017-01-13 09:13:13.432 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - |NIA|com.ib.nia.histdb.g | a()#72 | Use predefined table | ModelVolCurves2 | 
+2017-01-13 09:13:13.447 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - |NIA|com.ib.nia.histdb.g@2dd01dc2 | a()#86 | Removed stale manual volcurve data record no:  | 0 | 
+2017-01-13 09:13:13.471 [EB] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.control.handler.j@4a7a92dd | a()#41 | Nia STARTUP | 
+2017-01-13 09:13:13.477 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\/traderMap.txt does not exist
+2017-01-13 09:13:13.486 [EB] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-110] - IA: AccountManager has no base Currency. Riskfeed uses USD as default
+2017-01-13 09:13:13.486 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Control settins saving started.
+2017-01-13 09:13:13.486 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Update order defaults
+2017-01-13 09:13:13.487 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Saving IA settings
+2017-01-13 09:13:13.487 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Saving displayed msg list
+2017-01-13 09:13:13.489 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Saving xml
+2017-01-13 09:13:13.489 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Check settings BatchRequests are back:2 res:true
+2017-01-13 09:13:13.489 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Saving settings to D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\ibg.xml
+2017-01-13 09:13:13.575 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Verifying saved file
+2017-01-13 09:13:13.634 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - autoexport set to stop: /home/gushaorong/Jts/, start: , stop: 
+2017-01-13 09:13:13.635 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:13.635 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:13.635 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:13.635 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:13.635 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:13.635 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:13.643 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Verifying succeeded
+2017-01-13 09:13:13.643 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Renaming saved file
+2017-01-13 09:13:13.645 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Renaming succeeded
+2017-01-13 09:13:13.645 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Settings file size:323600
+2017-01-13 09:13:13.646 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Copying file D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\ibg.Fri.xml
+2017-01-13 09:13:13.649 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Copying succeeded
+2017-01-13 09:13:13.650 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Done saving settings
+2017-01-13 09:13:13.650 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Saving market rules
+2017-01-13 09:13:13.670 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Saving sizeop settings
+2017-01-13 09:13:13.670 [EB] INFO  [JTS-ShutdownTask-Saving_Settings-112] - Control settins saving finished.
+2017-01-13 09:13:13.671 [EB] INFO  [JTS-ShutdownTask-Shutdown_IA-114] - Disabling IA
+2017-01-13 09:13:13.671 [EB] INFO  [JTS-ShutdownTask-Shutdown_IA-114] - Started getting sync 'S.lock()' before 'Disabling IA'
+2017-01-13 09:13:13.671 [EB] INFO  [JTS-ShutdownTask-Shutdown_IA-114] - Got 'S.lock()' before 'Disabling IA'
+2017-01-13 09:13:13.672 [EB] INFO  [JTS-ShutdownTask-Shutdown_IA-114] - Started shutdown IA session
+2017-01-13 09:13:13.672 [EB] INFO  [JTS-ShutdownTask-Shutdown_IA-114] - Stopping IA session
+2017-01-13 09:13:13.672 [EB] INFO  [JTS-ShutdownTask-Shutdown_IA-114] - |NIA|com.ib.nia.control.l@48d3d8a5 | destroy()#46 | nia base timer is shut down | 
+2017-01-13 09:13:13.674 [EB] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.e@1faa4ddf | o()#101 | destroy | 
+2017-01-13 09:13:13.675 [EB] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.histdb.h@4a774b2a | destroy()#268 | Shutdown NIA RDBMS | 
+2017-01-13 09:13:14.103 [EB] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.histdb.h@4a774b2a | destroy()#271 | NIA DB Closed | 
+2017-01-13 09:13:14.106 [EB] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.control.handler.j@4a7a92dd | a()#46 | Nia SHUTDOWN | 
+2017-01-13 09:13:14.106 [EB] INFO  [JTS-ShutdownTask-Shutdown_IA-114] - |NIA|com.ib.nia.e@1faa4ddf | o()#110 | already destroyed | 
+2017-01-13 09:13:14.110 [EB] INFO  [JTS-AsyncQueryManager-111] - Terminating async query manager
+2017-01-13 09:13:14.111 [EB] INFO  [JTS-ShutdownTask-Shutdown_IA-114] - Finished shutdown IA session
+2017-01-13 09:13:14.152 [EB] INFO  [JTS-ExecNotifier-34] - Terminating async queue thread
+2017-01-13 09:13:14.157 [EB] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-122] - Disconnecting from farms and hmds
+2017-01-13 09:13:14.157 [EB] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-122] - Disconnecting all farm connections
+2017-01-13 09:13:14.158 [EB] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-122] - Disconnecting all farm connections
+2017-01-13 09:13:14.158 [EB] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-122] - Disconnecting all farm connections
+2017-01-13 09:13:14.159 [EB] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-122] - Farm hfarm/DISCONNECTED: Stopping connection
+2017-01-13 09:13:14.159 [EB] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-122] - Farm hkhmds/DISCONNECTED: Stopping connection
+2017-01-13 09:13:14.160 [EB] INFO  [JTS-ShutdownTask-Clearing_batch_requests-123] - Before clearing batch requets for:0 settings-state:null settings:0
+2017-01-13 09:13:14.160 [EB] INFO  [JTS-ShutdownTask-Closing_socket-125] - Close socket.
+2017-01-13 09:13:14.161 [EB] INFO  [JTS-ShutdownTask-Closing_audit-126] - Close audit log-file.
+2017-01-13 09:13:14.161 [EB] INFO  [JTS-Order-Audit-14] - Terminating async queue thread
+2017-01-13 09:13:14.161 [EB] INFO  [JTS-ShutdownTask-Disconnecting_trades_sync_mgr-127] - Disconnect 'TradesSyncMgr'
+2017-01-13 09:13:14.162 [EB] INFO  [JTS-ShutdownTask-Closing_login_window-128] - Close login window.
+2017-01-13 09:13:14.162 [EB] INFO  [JTS-ShutdownTask-Closing_login_window-128] - Disconnecting all farm connections
+2017-01-13 09:13:14.162 [EB] INFO  [JTS-ShutdownTask-Closing_login_window-128] - Disconnecting all farm connections
+2017-01-13 09:13:14.162 [EB] INFO  [JTS-ShutdownTask-Closing_login_window-128] - Disconnecting all farm connections
+2017-01-13 09:13:14.162 [EB] INFO  [AWT-EventQueue-0] - Shutdown thread finished.
+2017-01-13 09:13:14.162 [EB] INFO  [AWT-EventQueue-0] - Finished 'saveSettingsAndExitSession'
+2017-01-13 09:13:14.166 [EB] INFO  [pool-2-thread-1] - |NIA|Thread[NIA-DBSHUTDOWNHOOK,6,main] | run()#395 | HSQLDB connections are closed | 
+2017-01-13 09:13:26.736 [BE] INFO  [JTS-PostAuthenticateS2-22] - Created on: 20170113
+2017-01-13 09:13:26.736 [BE] INFO  [JTS-PostAuthenticateS2-22] - ------------------------------- IB GATEWAY RESTART --------------------------------
+2017-01-13 09:13:26.736 [BE] INFO  [JTS-PostAuthenticateS2-22] - Build 962.2c, Jan 10, 2017 12:29:39 PM
+2017-01-13 09:13:26.737 [BE] INFO  [JTS-PostAuthenticateS2-22] - Started on 20170113-01:13:26 Europe/London
+2017-01-13 09:13:26.737 [BE] INFO  [JTS-PostAuthenticateS2-22] - java version = 1.8.0_40
+2017-01-13 09:13:26.737 [BE] INFO  [JTS-PostAuthenticateS2-22] - sun.arch.data.model = 64
+2017-01-13 09:13:26.737 [BE] INFO  [JTS-PostAuthenticateS2-22] - os = Windows 7
+2017-01-13 09:13:26.737 [BE] INFO  [JTS-PostAuthenticateS2-22] - os architecture = 64
+2017-01-13 09:13:26.737 [BE] INFO  [JTS-PostAuthenticateS2-22] - runtime = Java(TM) SE Runtime Environment
+2017-01-13 09:13:26.737 [BE] INFO  [JTS-PostAuthenticateS2-22] - vendor = Oracle Corporation
+2017-01-13 09:13:26.737 [BE] INFO  [JTS-PostAuthenticateS2-22] - vm name = Java HotSpot(TM) 64-Bit Server VM
+2017-01-13 09:13:26.737 [BE] INFO  [JTS-PostAuthenticateS2-22] - username = 'sharon'
+2017-01-13 09:13:26.742 [BE] INFO  [AWT-EventQueue-0] - jtsLookAndFeel uninitialized
+2017-01-13 09:13:26.743 [BE] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2017-01-13 09:13:26.748 [BE] INFO  [AWT-EventQueue-0] - Current LAF: TWS LAF
+2017-01-13 09:13:26.777 [BE] INFO  [JTS-PostAuthenticateS2-22] - LOGIN_TIME_MONITOR	 false 09:13:26:777 since start = 1924 thread delay = 1924 global delay = 0 tag=Step7, cls=AbstractFixLogonHandler method=setDispatcherAndStartFixLogon
+2017-01-13 09:13:26.777 [BE] INFO  [JTS-PostAuthenticateS2-22] - SPLASH Requesting startup parameters
+2017-01-13 09:13:26.777 [BE] INFO  [JTS-PostAuthenticateS2-22] - SPLASH 0235 step 4 AbstractFixLogonHandler.setDispatcherAndStartFixLogon
+2017-01-13 09:13:26.778 [BE] INFO  [JTS-PostAuthenticateS2-22] - Changing state for connection from PRELOGON to PRELOGON in y 1760858085: SessionSocket:2
+2017-01-13 09:13:26.778 [BE] INFO  [JTS-PostAuthenticateS2-22] - initFixLogonTimezone: userDir=D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\
+2017-01-13 09:13:26.781 [BE] INFO  [JTS-LogonDispatcherS2-26] - Starting dispatcher
+2017-01-13 09:13:26.793 [BE] INFO  [JTS-PostAuthenticateS2-22] - initializing fixLogonTimeZone to device default: Asia/Shanghai
+2017-01-13 09:13:26.800 [BE] INFO  [JTS-PostAuthenticateS2-22] - pre-logon message successfully sent
+2017-01-13 09:13:26.800 [BE] INFO  [JTS-PostAuthenticateS2-22] - start ping with 1000 for: JTS-CCPPingS2-27
+2017-01-13 09:13:26.801 [BE] INFO  [JTS-CCPPingS2-27] - Starting ping thread
+2017-01-13 09:13:26.861 [BE] INFO  [JTS-LogonDispatcherS2-26] - Received login
+2017-01-13 09:13:26.863 [BE] INFO  [JTS-LogonDispatcherS2-26] - In AuthenticationProtocol-updateSessionTokenForSimulatedTradingLoginWithLiveUser: changing to read-only token: originalToken=32ecf4352307c5cea7c4508e3f554905feba5bbf newReadOnlyToken=c398d989ce8f77ce5d9d8868f6752804aea8f74c
+2017-01-13 09:13:26.863 [BE] INFO  [JTS-LogonDispatcherS2-26] - Changing to PERM_TOKEN in AuthenticationHandler
+2017-01-13 09:13:26.863 [BE] INFO  [JTS-LogonDispatcherS2-26] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=326360783 new=c398d989ce8f77ce5d9d8868f6752804aea8f74c old=32ecf4352307c5cea7c4508e3f554905feba5bbf ctciOld=NULL
+2017-01-13 09:13:26.863 [BE] INFO  [JTS-LogonDispatcherS2-26] - S3: CCP supports S3
+2017-01-13 09:13:26.891 [BE] INFO  [AWT-EventQueue-0] - Enabled features: null
+2017-01-13 09:13:26.922 [BE] INFO  [AWT-EventQueue-0] - CCP reported time: 2017-01-13 01:11:35.000 (GMT) [1484269895], local time: 2017-01-13 01:13:26.921 (GMT), local time: 2017-01-13 09:13:26.921 (CST), difference in seconds: -111.921 [Login]
+2017-01-13 09:13:26.922 [BE] INFO  [AWT-EventQueue-0] - Setting time offset to -111922 diff -111922
+2017-01-13 09:13:26.929 [BE] INFO  [AWT-EventQueue-0] - manualTicketPermission null
+2017-01-13 09:13:26.940 [BE] INFO  [AWT-EventQueue-0] - Chinese peer detected ('mcgw1.ibllc.com.cn:4000'): switching download root to 'http://download.ibkr.com.cn'.
+2017-01-13 09:13:26.941 [BE] INFO  [AWT-EventQueue-0] - WebRegionURL Path:/java/classes/language.jar URL:http://www.interactivebrokers.com/java/classes/language.jar
+2017-01-13 09:13:26.941 [BE] INFO  [AWT-EventQueue-0] - Starting to download 'http://download.ibkr.com.cn/java/classes/language.jar' using HotBackup 'http://download.ibkr.com.cn/java/classes/language.jar'
+2017-01-13 09:13:27.102 [BE] INFO  [AWT-EventQueue-0] - LOCALE: needToUpdate  dest=D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\language.jar  sourceMod=2017-01-12 20:14:17  destMod=2017-01-12 20:14:17  sourceSize=5962906  destSize=5962906  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=false
+2017-01-13 09:13:27.102 [BE] INFO  [AWT-EventQueue-0] - LOCALE: D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\language.jar already up-to-date
+2017-01-13 09:13:27.104 [BE] INFO  [AWT-EventQueue-0] - LOCALE: created classloader java.net.URLClassLoader@2ecfe9 with file:/D:/data/pipa/ibgateway的docker文件/Jts/dcilrkuwvl/language.jar, parent: sun.misc.Launcher$AppClassLoader@1540e19d
+2017-01-13 09:13:27.104 [BE] INFO  [AWT-EventQueue-0] - Locale=en_US  country=United States  variant=
+2017-01-13 09:13:27.104 [BE] INFO  [AWT-EventQueue-0] - prohibiting class lookup [ji18n.Language]
+2017-01-13 09:13:27.169 [BE] INFO  [AWT-EventQueue-0] - prohibiting class lookup [ji18n.Language_en]
+2017-01-13 09:13:27.173 [BE] INFO  [AWT-EventQueue-0] - prohibiting class lookup [ji18n.Language_en_US]
+2017-01-13 09:13:27.173 [BE] INFO  [AWT-EventQueue-0] - prohibiting resource lookup [ji18n/Language_en_US.properties]
+2017-01-13 09:13:27.182 [BE] INFO  [AWT-EventQueue-0] - LOCALE: type: full intended: en_US actual: en size: 15815
+2017-01-13 09:13:27.183 [BE] INFO  [AWT-EventQueue-0] - prohibiting class lookup [risknav.ji18n.RiskNavLanguage]
+2017-01-13 09:13:27.183 [BE] INFO  [AWT-EventQueue-0] - prohibiting class lookup [risknav.ji18n.RiskNavLanguage_en]
+2017-01-13 09:13:27.183 [BE] INFO  [AWT-EventQueue-0] - prohibiting class lookup [risknav.ji18n.RiskNavLanguage_en_US]
+2017-01-13 09:13:27.183 [BE] INFO  [AWT-EventQueue-0] - IA Warn! Couldn't load default risknav bundle for locale en_US, using default values in RiskNav
+2017-01-13 09:13:27.219 [BE] INFO  [AWT-EventQueue-0] - S3: checkbox was not checked by user
+2017-01-13 09:13:27.867 [BE] INFO  [AWT-EventQueue-0] - IBGateway connection to ccp succeeded
+2017-01-13 09:13:27.867 [BE] INFO  [AWT-EventQueue-0] - LOGIN_TIME_MONITOR	 false 09:13:27:867 since start = 3014 thread delay = 1090 global delay = 0 tag=Step6, cls=GatewayAdapter method=loginSuccess-1
+2017-01-13 09:13:27.868 [BE] INFO  [AWT-EventQueue-0] - SPLASH Loading resources
+2017-01-13 09:13:27.868 [BE] INFO  [AWT-EventQueue-0] - SPLASH 1091 step 5 GatewayAdapter.loginSuccess-1
+2017-01-13 09:13:27.914 [BE] INFO  [AWT-EventQueue-0] - Currencies:[AUD, CAD, CHF, EUR, GBP, HKD, JPY, KRW, SEK, MXN, NOK, USD, BASE] Default:[AUD, CAD, CHF, EUR, GBP, HKD, JPY, KRW, SEK, MXN, NOK, USD, BASE]
+2017-01-13 09:13:27.993 [BE] INFO  [AWT-EventQueue-0] - LOGIN_TIME_MONITOR	 false 09:13:27:993 since start = 3140 thread delay = 126 global delay = 126 tag=Step4, cls=JConQueryTool method=JConQueryTool()-1
+2017-01-13 09:13:27.993 [BE] INFO  [AWT-EventQueue-0] - SPLASH Initializing environment
+2017-01-13 09:13:28.021 [BE] INFO  [JTS-Async-28] - Starting async queue thread
+2017-01-13 09:13:28.021 [BE] INFO  [JTS-AsyncNonLocked-29] - Starting async queue thread
+2017-01-13 09:13:28.033 [BE] INFO  [AWT-EventQueue-0] - Created API Access manager
+2017-01-13 09:13:28.037 [BE] INFO  [AWT-EventQueue-0] - JConQueryTool()-2
+2017-01-13 09:13:28.038 [BE] INFO  [AWT-EventQueue-0] - LOGIN_TIME_MONITOR	 false 09:13:28:038 since start = 3185 thread delay = 45 global delay = 45 tag=Step15, cls=GatewayAdapter method=loginSuccess-2
+2017-01-13 09:13:28.038 [BE] INFO  [AWT-EventQueue-0] - SPLASH Initializing resources
+2017-01-13 09:13:28.038 [BE] INFO  [AWT-EventQueue-0] - Attempt to save the last connected host mcgw1.ibllc.com.cn:4000 with 4669 ms delay
+2017-01-13 09:13:28.039 [BE] INFO  [JTS-LogonDispatcherS2-26] - Terminating dispatcher
+2017-01-13 09:13:28.040 [BE] INFO  [JTS-CCPDispatcherS2-33] - Starting dispatcher
+2017-01-13 09:13:28.041 [BE] INFO  [AWT-EventQueue-0] - Currencies:[AUD, CAD, CHF, CNH, DKK, EUR, GBP, HKD, JPY, KRW, MXN, NOK, NZD, RUB, SEK, SGD, USD, ZAR, BASE] Default:[AUD, CAD, CHF, CNH, DKK, EUR, GBP, HKD, JPY, KRW, MXN, NOK, NZD, RUB, SEK, SGD, USD, ZAR, BASE]
+2017-01-13 09:13:28.041 [BE] INFO  [AWT-EventQueue-0] - Enabled features: null
+2017-01-13 09:13:28.046 [BE] INFO  [AWT-EventQueue-0] - CCP reported time: 2017-01-13 01:11:35.000 (GMT) [1484269895], local time: 2017-01-13 01:13:28.046 (GMT), local time: 2017-01-13 09:13:28.046 (CST), difference in seconds: -113.046 [Login]
+2017-01-13 09:13:28.047 [BE] INFO  [AWT-EventQueue-0] - Setting time offset to -113046 diff -1124
+2017-01-13 09:13:28.047 [BE] INFO  [AWT-EventQueue-0] - manualTicketPermission null
+2017-01-13 09:13:28.047 [BE] INFO  [AWT-EventQueue-0] - Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+2017-01-13 09:13:28.048 [BE] INFO  [AWT-EventQueue-0] - LOGIN_TIME_MONITOR	 false 09:13:28:048 since start = 3195 thread delay = 10 global delay = 10 tag=Step4, cls=JConQueryTool method=handlePreLogon
+2017-01-13 09:13:28.048 [BE] INFO  [AWT-EventQueue-0] - SPLASH Initializing environment
+2017-01-13 09:13:28.048 [BE] INFO  [AWT-EventQueue-0] - Handling prelogon msg NORMAL
+2017-01-13 09:13:28.048 [BE] INFO  [AWT-EventQueue-0] - control.init() session:2
+2017-01-13 09:13:28.623 [BE] INFO  [AWT-EventQueue-0] - EXEC Creating ExecReportMgr
+2017-01-13 09:13:28.654 [BE] INFO  [JTS-DeadlockMonitor-2] - Memory:total=699,392KB free=630,308KB HeapUsage: Max=699,392KB used=69,083KB committed=162,816KB NonHeapUsage: Max=0KB used=64,587KB committed=65,728KB
+2017-01-13 09:13:28.805 [BE] INFO  [JTS-TypeAheadSecDefProcessor-37] - Started request processor.
+2017-01-13 09:13:28.805 [BE] INFO  [JTS-TypeAheadSecDefProcessor-37] - Acquiring a send permit...
+2017-01-13 09:13:28.805 [BE] INFO  [JTS-TypeAheadSecDefProcessor-37] - Waiting for a new message...
+2017-01-13 09:13:28.813 [BE] INFO  [AWT-EventQueue-0] - Restoring market rule file D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\Fri.rul
+2017-01-13 09:13:28.921 [BE] INFO  [AWT-EventQueue-0] - autoexport set to stop: /home/gushaorong/Jts/, start: , stop: 
+2017-01-13 09:13:28.925 [BE] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:28.926 [BE] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:28.926 [BE] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:28.926 [BE] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:28.926 [BE] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:28.926 [BE] INFO  [AWT-EventQueue-0] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:28.991 [BE] INFO  [AWT-EventQueue-0] - JConQueryTool.init()-3
+2017-01-13 09:13:28.992 [BE] INFO  [AWT-EventQueue-0] - JConQueryTool.init()-4
+2017-01-13 09:13:29.212 [BE] INFO  [AWT-EventQueue-0] - Resetting seqNum during preLogon  resetTime=  logonResetTime=null
+2017-01-13 09:13:29.213 [BE] INFO  [AWT-EventQueue-0] - Changing state for connection from PRELOGON to LOGON in y 1760858085: SessionSocket:2
+2017-01-13 09:13:29.213 [BE] INFO  [AWT-EventQueue-0] - Changing state for connection from LOGON to FIX_SESSION_REQUEST in y 1760858085: SessionSocket:2
+2017-01-13 09:13:29.254 [BE] INFO  [JTS-CCPDispatcherS2-33] - OvernightManager.dayInit: new values: dayOfTheWeek: 6 (Fri), YYYYMMofToday: 201701, YYYYMMDDofToday: 20170113, m_todayDate: 20170113, dueToChangeInTimezone: false
+2017-01-13 09:13:29.344 [BE] INFO  [JTS-CCPDispatcherS2-33] - Received login
+2017-01-13 09:13:29.349 [BE] INFO  [JTS-CCPDispatcherS2-33] - Currencies:[AUD, CAD, CHF, CNH, DKK, EUR, GBP, HKD, JPY, KRW, MXN, NOK, NZD, RUB, SEK, SGD, USD, ZAR, BASE] Default:[AUD, CAD, CHF, CNH, DKK, EUR, GBP, HKD, JPY, KRW, MXN, NOK, NZD, RUB, SEK, SGD, USD, ZAR, BASE]
+2017-01-13 09:13:29.350 [BE] INFO  [JTS-CCPDispatcherS2-33] - Enabled features: 1DAYSORDER,ACCTALL,ACCTSUM,AD,ALGODEF,ALGOMONEY,APIELOG,AUTOINSTALL,AWAYCMTAREV,BBTV,BESTCLCR,BESTSCHED,BETAHEDGE,BLOTTERGROUPS,BONDMENU,BONDNETCOND,BT1,CASHQTY,CFD4CASH,CHILDCANCELPARENT,CLOSEPOS,CLOUD,CLOUDSCAN,CMAG,COMBLAST,COMBOCFG,COMBOFLIP,COMBOPL,COMBOPOS,COMBOSCAN,COMPN,CONSTOP,CONTSORT,CRORDER,CURRENTPRICEANDSIZE,DAYLINEUP,DCCDC,DELAYMD,DELTAHEDGE,EARLYEX,ESIGNAL,EVAPI,EXERCISE,EXERPPTC,EXTATTACH,FACLOSE,FANGCOMB,FARMTOKEN,FROZEN,FUNDNT,FXCONV,FXHEDGE,FXSUBPIP,FYI,GREEKLIST,HALTED,HEDGECFD,HOMEGROUP,IBBOT,IBIS,ICSLEG,IECOMBO1TO1,IECOMBOLEGMOD,IECOMBONESTED,IECOMBOPERLEGPRICE,IECOMBORELLMT,IGNOREYTW,ISW,JBA,LEDGER,LEGMARKUP,LESSWARN,LIGHTWTNLV,LYTLIB,MANGAWAY,MANUALSCALE,MDEXCH,MFCMP,MFCMPAD,MKTADDLIQ,MKTGUARD,MODELAVGPRICE,MODELDLV,MODELFARM,MODELIECOMBONG,MODELPL,MODELS,MOSAIC,MSOWN,MTA,NATGCOMB,NDMDERR,NEWFUTSEL,NEWOPTSEL,NEW_AUTH,NINDX,NOFMINUS,NONEWOPTUI,NONUSCOMBO,NONUSWHATIF,NOT2D,NSCAN,OFCLS,PAIRCOMBO,PAIRTRADE,PCTCHANGE,PHIST,PL,PLROLL,POSTXPMRG,PRBBTYLAB,PROBLABS3,RELIND,REUTFUND,REVOCEX,REVOCLAPSE,RPTCSHN,SCALEALLOC,SCALEDAYADJUST,SCALEFRAC,SCALEMOD,SCALEMODEL,SCALERANDOMIZE,SCALETIMEMOD,SCALETIMEMOD1,SCALEWHATIF,SECDEFLN,SEPLAST,SHOWLEGSEPARATE,SIMUPORTF,SLB,SLBCOND,SLOWPOSUPD,SMODELS,STOPPROFITOFFSET,STRATLAB,TAPE,TICKUNIT,UCALENDAR,UNRLAST,USEPARENTENDTIME,VIRTSEC,VOLAT,VOLATFUT,VOLATILITYLAB,WGVISIBILITY,CUSIP:550;551,DATABOOST:600;601,MOODY:524,SP:524,WSH:509;510
+2017-01-13 09:13:29.373 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:37.000 (GMT) [1484269897], local time: 2017-01-13 01:13:29.362 (GMT), local time: 2017-01-13 09:13:29.362 (CST), difference in seconds: -112.362 [Login]
+2017-01-13 09:13:29.374 [BE] INFO  [JTS-CCPDispatcherS2-33] - Setting time offset to -112373 diff 673
+2017-01-13 09:13:29.374 [BE] INFO  [JTS-CCPDispatcherS2-33] - manualTicketPermission null
+2017-01-13 09:13:29.375 [BE] INFO  [JTS-CCPDispatcherS2-33] - Changing state for connection from FIX_SESSION_REQUEST to FIX_SESSION_OPEN in y 1760858085: SessionSocket:2
+2017-01-13 09:13:29.375 [BE] INFO  [JTS-CCPDispatcherS2-33] - Handling normal logon msg NORMAL, wasConnected=false session:2
+2017-01-13 09:13:29.375 [BE] INFO  [JTS-CCPDispatcherS2-33] - Processing normal logon msg
+2017-01-13 09:13:29.376 [BE] INFO  [JTS-CCPDispatcherS2-33] - Check settings BatchRequests are back:0 res:true
+2017-01-13 09:13:29.376 [BE] INFO  [JTS-CCPDispatcherS2-33] - Restart quick=false cold=false logon=NORMAL batch=true
+2017-01-13 09:13:29.376 [BE] INFO  [JTS-CCPDispatcherS2-33] - SPLASH Processing startup parameters
+2017-01-13 09:13:29.376 [BE] INFO  [JTS-CCPDispatcherS2-33] - SPLASH 1508 step 6 JConQueryTool.processNormalLogon1-1
+2017-01-13 09:13:29.376 [BE] INFO  [JTS-CCPDispatcherS2-33] - Processing normal logon 1
+2017-01-13 09:13:29.403 [BE] INFO  [JTS-CCPDispatcherS2-33] - Updating seqNum during normal logon with 1
+2017-01-13 09:13:29.403 [BE] INFO  [JTS-CCPDispatcherS2-33] - Max API Backfill Years is set to 199
+2017-01-13 09:13:29.404 [BE] INFO  [JTS-CCPDispatcherS2-33] - Fast lockout exchanges:null
+2017-01-13 09:13:29.404 [BE] INFO  [JTS-CCPDispatcherS2-33] - API Max tickers=100, TWS Max tickers=100
+2017-01-13 09:13:29.404 [BE] INFO  [JTS-CCPDispatcherS2-33] - Split BidAsk/Last requests:true
+2017-01-13 09:13:29.405 [BE] INFO  [JTS-CCPDispatcherS2-33] - Combo Last requests:true
+2017-01-13 09:13:29.405 [BE] INFO  [JTS-CCPDispatcherS2-33] - Split BidAsk/Last requests:true
+2017-01-13 09:13:29.406 [BE] INFO  [JTS-CCPDispatcherS2-33] - Olympiad mode
+2017-01-13 09:13:29.406 [BE] INFO  [JTS-CCPDispatcherS2-33] - In AccountManager.updatePendingAccounts(): tag=8092 val=[null]
+2017-01-13 09:13:29.407 [BE] INFO  [JTS-CCPDispatcherS2-33] - effectivePnLTimeZone=Asia/Shanghai, effectivePnLTimeZoneId=Asia/Shanghai, rolling=true
+2017-01-13 09:13:29.407 [BE] INFO  [JTS-CCPDispatcherS2-33] - OvernightManager timezone set to [TimeZoneHolder [rollingTimeZone=true, timeZoneStr=Asia/Shanghai, TimeZone=sun.util.calendar.ZoneInfo[id="Asia/Shanghai",offset=28800000,dstSavings=0,useDaylight=false,transitions=19,lastRule=null]]];  original=[null]
+2017-01-13 09:13:29.407 [BE] INFO  [JTS-CCPDispatcherS2-33] - OvernightManager.dayInit: new values: dayOfTheWeek: 6 (Fri), YYYYMMofToday: 201701, YYYYMMDDofToday: 20170113, m_todayDate: 20170113, dueToChangeInTimezone: true
+2017-01-13 09:13:29.408 [BE] INFO  [JTS-CCPDispatcherS2-33] - Requesting compatible routing MARKET_DATA from CompatibleFarmEndPoints [md=mcgw1.ibllc.com.cn:4000, mdFarm=hfarm, hmds=hdc1.ibllc.com:4000, hmdsFarm=hkhmds, secdef=hdc1.ibllc.com:4000, secdefFarm=secdefhk]
+2017-01-13 09:13:29.416 [BE] INFO  [JTS-CCPDispatcherS2-33] - Farm hfarm/UNCONNECTED: Creating ServiceConnection for:hfarm
+2017-01-13 09:13:29.416 [BE] INFO  [JTS-CCPDispatcherS2-33] - Farm hfarm/UNCONNECTED: Adding message to queue 0 
+2017-01-13 09:13:29.416 [BE] INFO  [JTS-CCPDispatcherS2-33] - Farm hfarm/UNCONNECTED: Starting connection thread
+2017-01-13 09:13:29.422 [BE] INFO  [JTS-hfarmServiceConnector-40] - Farm hfarm/STARTING: Connecting via ccp conman (hfarm)...
+2017-01-13 09:13:29.423 [BE] INFO  [JTS-hfarmServiceConnector-40] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:13:29.423 [BE] INFO  [JTS-hfarmServiceConnector-40] - CONN CALC: Last connection set as now:09:13:29:423
+2017-01-13 09:13:29.445 [BE] INFO  [JTS-CCPDispatcherS2-33] - Connection store:aQ - disconnect all farms due to competing session
+2017-01-13 09:13:29.445 [BE] INFO  [JTS-CCPDispatcherS2-33] - Connection store:aS - disconnect all farms due to competing session
+2017-01-13 09:13:29.445 [BE] INFO  [JTS-CCPDispatcherS2-33] - Connection store:aR - disconnect all farms due to competing session
+2017-01-13 09:13:29.463 [BE] INFO  [JTS-hfarmServiceConnector-40] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11508
+2017-01-13 09:13:29.464 [BE] INFO  [JTS-hfarmServiceConnector-40] - Farm hfarm/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:13:29.464 [BE] INFO  [JTS-hfarmServiceConnector-40] - Added to valid hosts list: mcgw1.ibllc.com.cn
+2017-01-13 09:13:29.465 [BE] INFO  [JTS-hfarmListenerS3-41] - Starting Listener thread
+2017-01-13 09:13:29.472 [BE] INFO  [JTS-hfarmServiceConnector-40] - Created JTS-CommonScheduler-44
+2017-01-13 09:13:29.472 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - Starting dispatcher
+2017-01-13 09:13:29.473 [BE] INFO  [JTS-hfarmListenerS3-41] - Initial listener buffer size is 8192
+2017-01-13 09:13:29.546 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:13:29.546 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:13:29.547 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:13:29.548 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - Current time is: 20170113-01:13:29 Europe/London
+2017-01-13 09:13:29.551 [BE] INFO  [JTS-CCPDispatcherS2-33] - ModelSummaryRequestMgr init
+2017-01-13 09:13:29.552 [BE] INFO  [JTS-CCPDispatcherS2-33] - SPLASH Loading order defaults
+2017-01-13 09:13:29.552 [BE] INFO  [JTS-AsyncNonLocked-29] - CM sendAccountSubscription called for DU565809.
+2017-01-13 09:13:29.560 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - CipherContext initialization successed.
+2017-01-13 09:13:29.561 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:29.561 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - AuthTimeoutMonitor: timeout=20000
+2017-01-13 09:13:29.562 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - AuthTimeoutMonitor: activate
+2017-01-13 09:13:29.562 [BE] INFO  [JTS-AuthTimeoutMonitorThread-45] - Starting auth timeout monitor thread
+2017-01-13 09:13:29.563 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - start ping with 5000 for: JTS-hfarmServicePreAuthPingS3-46
+2017-01-13 09:13:29.564 [BE] INFO  [JTS-hfarmServicePreAuthPingS3-46] - Starting ping thread
+2017-01-13 09:13:29.564 [BE] INFO  [JTS-CCPDispatcherS2-33] - Restore OrderDefaultSet from settings.xml
+2017-01-13 09:13:29.566 [BE] INFO  [JTS-CCPDispatcherS2-33] - No defaults for: CMDTY
+2017-01-13 09:13:29.567 [BE] INFO  [JTS-CCPDispatcherS2-33] - SPLASH Initializing managers
+2017-01-13 09:13:29.571 [BE] INFO  [JTS-CCPDispatcherS2-33] - Enabling IA
+2017-01-13 09:13:29.571 [BE] INFO  [JTS-SocketListener-47] - API server listening on port 4003
+2017-01-13 09:13:29.571 [BE] INFO  [JTS-SocketListener-47] - API in Read-Only mode: false
+2017-01-13 09:13:29.575 [BE] INFO  [JTS-CCPDispatcherS2-33] - Jolt Build 1.7.0; Nov 17, 2016 09:51:32 AM
+2017-01-13 09:13:29.576 [BE] INFO  [JTS-CCPDispatcherS2-33] - Nia Build 2.11.2; Oct 27, 2016 11:36:08 AM
+2017-01-13 09:13:29.576 [BE] INFO  [JTS-CCPDispatcherS2-33] - ModelNav Build 1.5.1; Oct 27, 2016 05:46:44 PM
+2017-01-13 09:13:29.576 [BE] INFO  [JTS-CCPDispatcherS2-33] - RiskFeed Build 2.21.0; Dec 8, 2016 09:50:24 AM
+2017-01-13 09:13:29.618 [BE] INFO  [JTS-CCPDispatcherS2-33] - Starting IA session
+2017-01-13 09:13:29.637 [BE] INFO  [JTS-CCPDispatcherS2-33] - SPLASH 0261 step 7 JConQueryTool.processNormalLogon1-8
+2017-01-13 09:13:29.638 [BE] INFO  [JTS-CCPDispatcherS2-33] - SPLASH Starting application
+2017-01-13 09:13:29.638 [BE] INFO  [JTS-CCPDispatcherS2-33] - Processing normal logon 2
+2017-01-13 09:13:29.638 [BE] INFO  [JTS-CCPDispatcherS2-33] - Processing normal logon 3
+2017-01-13 09:13:29.639 [BE] INFO  [JTS-CCPDispatcherS2-33] - TradeRequests:ExecReportMgr-restoreExecutions: sending trades request for un-initialized storage: date=Fri Jan 13 09:11:37 CST 2017 readingMode=ReportStorageReadingMode ALL
+2017-01-13 09:13:29.640 [BE] INFO  [JTS-CCPDispatcherS2-33] - TradeDaysMgr - reconnect fillups started.
+2017-01-13 09:13:29.640 [BE] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ExecReportMgr-restoreExecutions_: trades file not found D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\Fri.trd
+2017-01-13 09:13:29.640 [BE] INFO  [JTS-ExecNotifier-34] - Starting async queue thread
+2017-01-13 09:13:29.640 [BE] INFO  [AWT-EventQueue-0] - SPLASH Closing screen and saving 7 steps
+2017-01-13 09:13:29.640 [BE] INFO  [JTS-CCPDispatcherS2-33] - Check settings BatchRequests are back:2 res:true
+2017-01-13 09:13:29.642 [BE] INFO  [JTS-RestoreExecutions-49] - Combo transfer file D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\Fri.trx is not present
+2017-01-13 09:13:29.642 [BE] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ReportStorage-sendWholeDayRequest: , requestId=today0, date=Fri Jan 13 09:11:37 CST 2017, key=Fri
+2017-01-13 09:13:29.644 [BE] INFO  [JTS-RestoreExecutions-49] - Sending trade request from 20170112-16:00:00 to 20170113-16:00:00
+2017-01-13 09:13:29.645 [BE] INFO  [JTS-CCPDispatcherS2-33] - LOGIN_TIME_MONITOR	 false 09:13:29:645 since start = 4792 thread delay = 1597 global delay = 0 tag=TURN OFF, cls=DelayReporter method=turnOff
+2017-01-13 09:13:29.646 [BE] INFO  [JTS-CCPDispatcherS2-33] - Current date:20170113 same:true
+2017-01-13 09:13:29.648 [BE] INFO  [JTS-CCPDispatcherS2-33] - Current order recovery state:NONE
+2017-01-13 09:13:29.649 [BE] INFO  [JTS-CCPDispatcherS2-33] - Re-trying background batch requests:[]
+2017-01-13 09:13:29.649 [BE] INFO  [JTS-CCPDispatcherS2-33] - Changing state for connection from FIX_SESSION_OPEN to LOGGEDON in y 1760858085: SessionSocket:2
+2017-01-13 09:13:29.650 [BE] INFO  [JTS-Cleaner-31] - market data wrapper, cleaning maps
+2017-01-13 09:13:29.659 [BE] INFO  [JTS-DeadlockMonitor-2] - CPU:cur=20.26% avg=20.26% 30 min avg=20.26% 5 min avg=20.26% 1 min avg=20.26%
+GC:called=8 times CPU used=0.83%
+Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+Threads Count:curr live=46 curr daemon=26
+2017-01-13 09:13:29.662 [BE] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ExecReportMgr-Clearing Models
+2017-01-13 09:13:29.663 [BE] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ExecReportMgr-Sending position request
+2017-01-13 09:13:29.665 [BE] INFO  [JTS-RestoreExecutions-49] - TradeRequests:ExecReportMgr-Sending ledger request
+2017-01-13 09:13:29.962 [BE] INFO  [JTS-HmdsRouting requestor-48] - Requesting compatible routing HISTORICAL_DATA from CompatibleFarmEndPoints [md=mcgw1.ibllc.com.cn:4000, mdFarm=hfarm, hmds=hdc1.ibllc.com:4000, hmdsFarm=hkhmds, secdef=hdc1.ibllc.com:4000, secdefFarm=secdefhk]
+2017-01-13 09:13:29.962 [BE] INFO  [JTS-HmdsRouting requestor-48] - Farm hkhmds/UNCONNECTED: Creating ServiceConnection for:hkhmds
+2017-01-13 09:13:29.962 [BE] INFO  [JTS-HmdsRouting requestor-48] - Farm hkhmds/UNCONNECTED: Adding message to queue 0 
+2017-01-13 09:13:29.962 [BE] INFO  [JTS-HmdsRouting requestor-48] - Farm hkhmds/UNCONNECTED: Starting connection thread
+2017-01-13 09:13:29.963 [BE] INFO  [JTS-AsyncNonLocked-29] - Starting compressor
+2017-01-13 09:13:29.963 [BE] INFO  [JTS-AsyncNonLocked-29] - Shutting down compressor.
+2017-01-13 09:13:29.963 [BE] INFO  [JTS-AsyncNonLocked-29] - Can't send less than 23 bytes
+2017-01-13 09:13:29.963 [BE] INFO  [JTS-AsyncNonLocked-29] - Entering long time mode
+2017-01-13 09:13:29.965 [BE] INFO  [JTS-AsyncNonLocked-29] - CM setting requested account spec to DU565809.
+2017-01-13 09:13:29.966 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:38.000 (GMT) [1484269898], local time: 2017-01-13 01:13:29.964 (GMT), local time: 2017-01-13 09:13:29.964 (CST), difference in seconds: -111.964 [TestReq]
+2017-01-13 09:13:29.966 [BE] INFO  [JTS-AsyncNonLocked-29] - send account subscription: FixAccountRequest id=AR.1 account=DU565809. subscricbe=true lw=false
+2017-01-13 09:13:29.966 [BE] INFO  [JTS-hkhmdsServiceConnector-50] - Farm hkhmds/STARTING: Connecting natively (hkhmds)...
+2017-01-13 09:13:29.966 [BE] INFO  [JTS-hkhmdsServiceConnector-50] - Connecting hdc1.ibllc.com:4000 timeout=0
+2017-01-13 09:13:29.966 [BE] INFO  [JTS-hkhmdsServiceConnector-50] - CONN CALC: Last connection set as now:09:13:29:966
+2017-01-13 09:13:29.970 [BE] INFO  [JTS-AsyncNonLocked-29] - Successfully ?: true sent request: FixAccountRequest id=AR.1 account=DU565809. subscricbe=true lw=false
+2017-01-13 09:13:29.981 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:29.981 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:29.981 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:29.981 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.002 [BE] INFO  [JTS-hkhmdsServiceConnector-50] - Connected to hdc1.ibllc.com:4000 on local port 0 socket local addrs:port /192.168.70.148:11509
+2017-01-13 09:13:30.002 [BE] INFO  [JTS-hkhmdsServiceConnector-50] - Farm hkhmds/PRE_NATIVE: Connected, sending secure connect and/or auth
+2017-01-13 09:13:30.002 [BE] INFO  [JTS-hkhmdsServiceConnector-50] - Added to valid hosts list: hdc1.ibllc.com
+2017-01-13 09:13:30.005 [BE] INFO  [JTS-CCPDispatcherS2-33] - Received live orders end marker session:2
+2017-01-13 09:13:30.006 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - Starting dispatcher
+2017-01-13 09:13:30.006 [BE] INFO  [JTS-CCPDispatcherS2-33] - Storage synced: ReportStorage[Fri, today=true]
+2017-01-13 09:13:30.007 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:38.000 (GMT) [1484269898], local time: 2017-01-13 01:13:30.006 (GMT), local time: 2017-01-13 09:13:30.006 (CST), difference in seconds: -112.006 [TestReq]
+2017-01-13 09:13:30.006 [BE] INFO  [JTS-hkhmdsListenerS4-51] - Starting Listener thread
+2017-01-13 09:13:30.011 [BE] INFO  [JTS-CCPDispatcherS2-33] - Lightweight position response received: [DU565809.] subscribed: false
+2017-01-13 09:13:30.018 [BE] INFO  [JTS-CCPDispatcherS2-33] - UpdateRecordsForAccount: DU565809. acctPositions size 3 fullReport=true
+2017-01-13 09:13:30.026 [BE] INFO  [JTS-hkhmdsListenerS4-51] - Initial listener buffer size is 8192
+2017-01-13 09:13:30.029 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:38.000 (GMT) [1484269898], local time: 2017-01-13 01:13:30.029 (GMT), local time: 2017-01-13 09:13:30.029 (CST), difference in seconds: -112.029 [TestReq]
+2017-01-13 09:13:30.033 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:38.000 (GMT) [1484269898], local time: 2017-01-13 01:13:30.032 (GMT), local time: 2017-01-13 09:13:30.032 (CST), difference in seconds: -112.032 [TestReq]
+2017-01-13 09:13:30.037 [BE] INFO  [JTS-hfarmListenerS3-41] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:13:30.037 [BE] INFO  [JTS-hfarmListenerS3-41] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:13:30.039 [BE] INFO  [JTS-hfarmListenerS3-41] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:30.040 [BE] INFO  [JTS-hfarmServicePreAuthPingS3-46] - Terminating ping thread
+2017-01-13 09:13:30.040 [BE] INFO  [JTS-hfarmDispatcherS3-42S3-43] - Terminating dispatcher
+2017-01-13 09:13:30.040 [BE] INFO  [JTS-DisconnectedS3-54] - Farm hfarm/PRE_CCP: Disconnected during auth
+2017-01-13 09:13:30.040 [BE] INFO  [JTS-AuthTimeoutMonitorThread-45] - Terminating auth timeout monitor thread
+2017-01-13 09:13:30.041 [BE] INFO  [JTS-hfarmListenerS3-41] - Terminating Listener thread
+2017-01-13 09:13:30.041 [BE] INFO  [JTS-DisconnectedS3-54] - CONN CALC: :0 next attempt: 09:13:36:098 delay:6057ms; LastAttempt:09:13:29:423 socketTimeout:20sec;  base=0 range=5000 delayFactor:1.0
+2017-01-13 09:13:30.041 [BE] INFO  [JTS-DisconnectedS3-54] - CONN CALC: Timeout increased base=5000 range=10000
+2017-01-13 09:13:30.041 [BE] INFO  [JTS-DisconnectedS3-54] - CONN CALC: Last disconnect time set as now:09:13:30:041
+2017-01-13 09:13:30.051 [BE] INFO  [AWT-EventQueue-0] - Monitor: Monitor: Primary m_origin [java.awt.Point[x=0,y=0]] m_size [java.awt.Dimension[width=1366,height=728]]m_insets [java.awt.Insets[top=0,left=0,bottom=40,right=0]]m_toolkitInsets [java.awt.Insets[top=0,left=0,bottom=40,right=0]]m_fullBounds [java.awt.Rectangle[x=0,y=0,width=1366,height=768]]
+2017-01-13 09:13:30.051 [BE] INFO  [AWT-EventQueue-0] - Monitor: Monitor: m_origin [java.awt.Point[x=-1920,y=0]] m_size [java.awt.Dimension[width=1920,height=1080]]m_insets [java.awt.Insets[top=0,left=0,bottom=0,right=0]]m_toolkitInsets [java.awt.Insets[top=0,left=0,bottom=0,right=0]]m_fullBounds [java.awt.Rectangle[x=-1920,y=0,width=1920,height=1080]]
+2017-01-13 09:13:30.051 [BE] INFO  [AWT-EventQueue-0] - Virtual: Monitor: m_origin [java.awt.Point[x=-1920,y=0]] m_size [java.awt.Dimension[width=3286,height=1080]]m_insets [java.awt.Insets[top=0,left=0,bottom=0,right=0]]m_toolkitInsets [null]m_fullBounds [java.awt.Rectangle[x=-1920,y=0,width=3286,height=1080]]
+2017-01-13 09:13:30.079 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:13:30.079 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:13:30.079 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:13:30.079 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - Current time is: 20170113-01:13:30 Europe/London
+2017-01-13 09:13:30.082 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - CipherContext initialization successed.
+2017-01-13 09:13:30.083 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:30.083 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - AuthTimeoutMonitor: timeout=20000
+2017-01-13 09:13:30.083 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - AuthTimeoutMonitor: activate
+2017-01-13 09:13:30.083 [BE] INFO  [JTS-AuthTimeoutMonitorThread-56] - Starting auth timeout monitor thread
+2017-01-13 09:13:30.084 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - start ping with 5000 for: JTS-hkhmdsServicePreAuthPingS4-57
+2017-01-13 09:13:30.084 [BE] INFO  [JTS-hkhmdsServicePreAuthPingS4-57] - Starting ping thread
+2017-01-13 09:13:30.108 [BE] INFO  [JTS-CCPDispatcherS2-33] - CM Received account reset event. AccountCode|DU565809|1484269898, AccountType|INDIVIDUAL|1484269898, AccountReady|true|1484269898 for Request=AR.1 Saved Request=AR.1 Account=DU565809.
+2017-01-13 09:13:30.130 [BE] INFO  [JTS-CCPDispatcherS2-33] - CM IB PORT DU565809./1/1094828807: Received account reset event:DU565809.
+2017-01-13 09:13:30.156 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.156 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.156 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.156 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.178 [BE] INFO  [JTS-CCPDispatcherS2-33] - Updating base currency: accountSpec=DU565809., currency=USD
+2017-01-13 09:13:30.178 [BE] INFO  [JTS-CCPDispatcherS2-33] - =---> ACCOUNT END6529=AR.1
+2017-01-13 09:13:30.223 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.223 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.223 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.223 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.285 [BE] INFO  [AWT-EventQueue-0] - Plugin Name: Configuration loaded in 1
+2017-01-13 09:13:30.287 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.288 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.314 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.314 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:30.339 [BE] INFO  [JTS-Async-28] - Initializing PortfolioAnalysisController
+2017-01-13 09:13:30.484 [BE] INFO  [JTS-Async-28] - CM IB PORT DU565809./1/1094828807: Finished loading portfolio
+2017-01-13 09:13:30.519 [BE] INFO  [AWT-EventQueue-0] - Plugin Name: Settings loaded in 37
+2017-01-13 09:13:30.718 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:39.000 (GMT) [1484269899], local time: 2017-01-13 01:13:30.716 (GMT), local time: 2017-01-13 09:13:30.716 (CST), difference in seconds: -111.716 [TestReq]
+2017-01-13 09:13:30.719 [BE] INFO  [JTS-hkhmdsListenerS4-51] - Error reading from socket hdc1.ibllc.com:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:13:30.719 [BE] INFO  [JTS-hkhmdsListenerS4-51] - Disconnecting hdc1.ibllc.com:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:13:30.720 [BE] INFO  [JTS-hkhmdsListenerS4-51] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:30.720 [BE] INFO  [JTS-hkhmdsDispatcherS4-52S4-53] - Terminating dispatcher
+2017-01-13 09:13:30.720 [BE] INFO  [JTS-hkhmdsServicePreAuthPingS4-57] - Terminating ping thread
+2017-01-13 09:13:30.721 [BE] INFO  [JTS-AuthTimeoutMonitorThread-56] - Terminating auth timeout monitor thread
+2017-01-13 09:13:30.721 [BE] INFO  [JTS-DisconnectedS4-59] - Farm hkhmds/PRE_NATIVE: Disconnected during auth
+2017-01-13 09:13:30.721 [BE] INFO  [JTS-hkhmdsListenerS4-51] - Terminating Listener thread
+2017-01-13 09:13:30.722 [BE] INFO  [JTS-DisconnectedS4-59] - Not exhausted because hdc1.ibllc.com was connected
+2017-01-13 09:13:30.722 [BE] INFO  [JTS-DisconnectedS4-59] - CONN CALC: :0 next attempt: 09:13:35:443 delay:4721ms; LastAttempt:09:13:29:966 socketTimeout:20sec;  base=0 range=5000 delayFactor:1.0
+2017-01-13 09:13:30.722 [BE] INFO  [JTS-DisconnectedS4-59] - CONN CALC: Timeout increased base=5000 range=10000
+2017-01-13 09:13:30.722 [BE] INFO  [JTS-DisconnectedS4-59] - CONN CALC: Last disconnect time set as now:09:13:30:722
+2017-01-13 09:13:32.710 [BE] INFO  [AWT-EventQueue-0] - SSL support status for mcgw1.ibllc.com.cn:4000 is true
+2017-01-13 09:13:32.711 [BE] INFO  [AWT-EventQueue-0] - Saved peer:mcgw1.ibllc.com.cn:4000
+2017-01-13 09:13:33.327 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.327 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.327 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.327 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.328 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.328 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.328 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.328 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.349 [BE] INFO  [AWT-EventQueue-0] - Plugin Name: Configuration loaded in 3
+2017-01-13 09:13:33.386 [BE] INFO  [AWT-EventQueue-0] - Plugin Name: Settings loaded in 15
+2017-01-13 09:13:33.412 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.412 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.465 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog does not implement IToFrontAsGroupWindow, isAlwaysOnTop: false parent: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:33.466 [BE] INFO  [AWT-EventQueue-0] - Parent for Dialog is not isAlwaysOnTop: ibgateway.an[frame1,333,109,700x550,invalid,layout=java.awt.BorderLayout,title=IB Gateway.  API Account: gsr201612,resizable,normal,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,700x550,invalid,layout=jtscomponents.plaf.ai,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+2017-01-13 09:13:35.445 [BE] INFO  [JTS-Fuse-nativepause-60] - Farm hkhmds/DISCONNECTED: Connecting via ccp conman (hkhmds)...
+2017-01-13 09:13:35.445 [BE] INFO  [JTS-Fuse-nativepause-60] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:13:35.445 [BE] INFO  [JTS-Fuse-nativepause-60] - CONN CALC: Last connection set as now:09:13:35:445
+2017-01-13 09:13:35.487 [BE] INFO  [JTS-Fuse-nativepause-60] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11510
+2017-01-13 09:13:35.487 [BE] INFO  [JTS-Fuse-nativepause-60] - Farm hkhmds/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:13:35.487 [BE] INFO  [JTS-Fuse-nativepause-60] - Added to valid hosts list: mcgw1.ibllc.com.cn
+2017-01-13 09:13:35.487 [BE] INFO  [JTS-hkhmdsListenerS5-61] - Starting Listener thread
+2017-01-13 09:13:35.489 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - Starting dispatcher
+2017-01-13 09:13:35.490 [BE] INFO  [JTS-hkhmdsListenerS5-61] - Initial listener buffer size is 8192
+2017-01-13 09:13:35.566 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:13:35.567 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:13:35.567 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:13:35.569 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - Current time is: 20170113-01:13:35 Europe/London
+2017-01-13 09:13:35.575 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - CipherContext initialization successed.
+2017-01-13 09:13:35.577 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:35.577 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - AuthTimeoutMonitor: timeout=20000
+2017-01-13 09:13:35.577 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - AuthTimeoutMonitor: activate
+2017-01-13 09:13:35.578 [BE] INFO  [JTS-AuthTimeoutMonitorThread-64] - Starting auth timeout monitor thread
+2017-01-13 09:13:35.583 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - start ping with 5000 for: JTS-hkhmdsServicePreAuthPingS5-65
+2017-01-13 09:13:35.585 [BE] INFO  [JTS-hkhmdsServicePreAuthPingS5-65] - Starting ping thread
+2017-01-13 09:13:35.881 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:44.000 (GMT) [1484269904], local time: 2017-01-13 01:13:35.880 (GMT), local time: 2017-01-13 09:13:35.880 (CST), difference in seconds: -111.880 [TestReq]
+2017-01-13 09:13:35.883 [BE] INFO  [JTS-hkhmdsListenerS5-61] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:13:35.883 [BE] INFO  [JTS-hkhmdsListenerS5-61] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:13:35.884 [BE] INFO  [JTS-hkhmdsListenerS5-61] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:35.885 [BE] INFO  [JTS-hkhmdsServicePreAuthPingS5-65] - Terminating ping thread
+2017-01-13 09:13:35.886 [BE] INFO  [JTS-AuthTimeoutMonitorThread-64] - Terminating auth timeout monitor thread
+2017-01-13 09:13:35.886 [BE] INFO  [JTS-DisconnectedS5-66] - Farm hkhmds/PRE_CCP: Disconnected during auth
+2017-01-13 09:13:35.888 [BE] INFO  [JTS-hkhmdsListenerS5-61] - Terminating Listener thread
+2017-01-13 09:13:35.889 [BE] INFO  [JTS-DisconnectedS5-66] - CONN CALC: :0 next attempt: 09:13:47:856 delay:11967ms; LastAttempt:09:13:35:445 socketTimeout:30sec;  base=5000 range=10000 delayFactor:1.0
+2017-01-13 09:13:35.889 [BE] INFO  [JTS-DisconnectedS5-66] - CONN CALC: Timeout increased base=15000 range=15000
+2017-01-13 09:13:35.889 [BE] INFO  [JTS-DisconnectedS5-66] - CONN CALC: Last disconnect time set as now:09:13:35:889
+2017-01-13 09:13:35.891 [BE] INFO  [JTS-hkhmdsDispatcherS5-62S5-63] - Terminating dispatcher
+2017-01-13 09:13:36.099 [BE] INFO  [JTS-Fuse-ccppause-55] - Farm hfarm/DISCONNECTED: Connecting via ccp conman (hfarm)...
+2017-01-13 09:13:36.099 [BE] INFO  [JTS-Fuse-ccppause-55] - AsyncDisconnectNotifiers:1
+2017-01-13 09:13:36.099 [BE] INFO  [JTS-Fuse-ccppause-55] - Connecting mcgw1.ibllc.com.cn:4000 timeout=0
+2017-01-13 09:13:36.099 [BE] INFO  [JTS-Fuse-ccppause-55] - CONN CALC: Last connection set as now:09:13:36:099
+2017-01-13 09:13:36.141 [BE] INFO  [JTS-Fuse-ccppause-55] - Connected to mcgw1.ibllc.com.cn:4000 on local port 0 socket local addrs:port /192.168.70.148:11511
+2017-01-13 09:13:36.142 [BE] INFO  [JTS-Fuse-ccppause-55] - Farm hfarm/PRE_CCP: Connected, sending secure connect and/or auth
+2017-01-13 09:13:36.143 [BE] INFO  [JTS-hfarmListenerS6-68] - Starting Listener thread
+2017-01-13 09:13:36.147 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - Starting dispatcher
+2017-01-13 09:13:36.148 [BE] INFO  [JTS-hfarmListenerS6-68] - Initial listener buffer size is 8192
+2017-01-13 09:13:36.224 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - cert #0 subject:CN=tws.ibllc.com,OU=tws.ibllc.com,O=IBLLC,C=US	issuer:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	notBefore:20170112-14:07:19 Europe/London	notAfter:20170114-22:07:19 Europe/London
+2017-01-13 09:13:36.225 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - cert #1 subject:CN=prod.ckg.ibllc.com,O=Interactive Brokers LLC,L=Greenwich,ST=Connecticut,C=US	issuer:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	notBefore:20150806-01:00:00 Europe/London	notAfter:20180810-13:00:00 Europe/London
+2017-01-13 09:13:36.226 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - cert #2 subject:CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US	issuer:CN=DigiCert Global Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US	notBefore:20130308-12:00:00 Europe/London	notAfter:20230308-12:00:00 Europe/London
+2017-01-13 09:13:36.227 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - Current time is: 20170113-01:13:36 Europe/London
+2017-01-13 09:13:36.236 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - CipherContext initialization successed.
+2017-01-13 09:13:36.237 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:36.237 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - AuthTimeoutMonitor: timeout=20000
+2017-01-13 09:13:36.237 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - AuthTimeoutMonitor: activate
+2017-01-13 09:13:36.253 [BE] INFO  [JTS-AuthTimeoutMonitorThread-71] - Starting auth timeout monitor thread
+2017-01-13 09:13:36.263 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - start ping with 5000 for: JTS-hfarmServicePreAuthPingS6-72
+2017-01-13 09:13:36.264 [BE] INFO  [JTS-hfarmServicePreAuthPingS6-72] - Starting ping thread
+2017-01-13 09:13:36.413 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:45.000 (GMT) [1484269905], local time: 2017-01-13 01:13:36.412 (GMT), local time: 2017-01-13 09:13:36.412 (CST), difference in seconds: -111.412 [TestReq]
+2017-01-13 09:13:36.415 [BE] INFO  [JTS-hfarmListenerS6-68] - Error reading from socket mcgw1.ibllc.com.cn:4000 - java.net.SocketException: Connection reset
+2017-01-13 09:13:36.415 [BE] INFO  [JTS-hfarmListenerS6-68] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_BROKEN_SOCKET
+2017-01-13 09:13:36.416 [BE] INFO  [JTS-hfarmServicePreAuthPingS6-72] - Terminating ping thread
+2017-01-13 09:13:36.416 [BE] INFO  [JTS-hfarmListenerS6-68] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:36.416 [BE] INFO  [JTS-AuthTimeoutMonitorThread-71] - Terminating auth timeout monitor thread
+2017-01-13 09:13:36.417 [BE] INFO  [JTS-hfarmListenerS6-68] - Terminating Listener thread
+2017-01-13 09:13:36.418 [BE] INFO  [JTS-hfarmDispatcherS6-69S6-70] - Terminating dispatcher
+2017-01-13 09:13:36.418 [BE] INFO  [JTS-DisconnectedS6-73] - Farm hfarm/PRE_CCP: Disconnected during auth
+2017-01-13 09:13:36.419 [BE] INFO  [JTS-DisconnectedS6-73] - CONN CALC: :0 next attempt: 09:13:50:953 delay:14534ms; LastAttempt:09:13:36:099 socketTimeout:30sec;  base=5000 range=10000 delayFactor:1.0
+2017-01-13 09:13:36.419 [BE] INFO  [JTS-DisconnectedS6-73] - CONN CALC: Timeout increased base=15000 range=15000
+2017-01-13 09:13:36.419 [BE] INFO  [JTS-DisconnectedS6-73] - CONN CALC: Last disconnect time set as now:09:13:36:419
+2017-01-13 09:13:36.420 [BE] INFO  [JTS-DisconnectedS6-73] - Unable to connect to MARKET_DATA farm through ccp conman after 2 attempts
+2017-01-13 09:13:37.301 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:45.000 (GMT) [1484269905], local time: 2017-01-13 01:13:37.301 (GMT), local time: 2017-01-13 09:13:37.301 (CST), difference in seconds: -112.301 [TestReq]
+2017-01-13 09:13:37.302 [BE] INFO  [JTS-CCPDispatcherS2-33] - CCP reported time: 2017-01-13 01:11:45.000 (GMT) [1484269905], local time: 2017-01-13 01:13:37.301 (GMT), local time: 2017-01-13 09:13:37.301 (CST), difference in seconds: -112.301 [CCPTime]
+2017-01-13 09:13:37.302 [BE] INFO  [JTS-CCPDispatcherS2-33] - Setting time offset to -112302 diff 71
+2017-01-13 09:13:38.379 [BE] INFO  [AWT-EventQueue-0] - called cleanupMktSrvr
+2017-01-13 09:13:38.379 [BE] INFO  [AWT-EventQueue-0] - Destroy async. services.
+2017-01-13 09:13:38.379 [BE] INFO  [AWT-EventQueue-0] - destroyAsyncServices Started
+2017-01-13 09:13:38.380 [BE] INFO  [AWT-EventQueue-0] - Destroying today's records
+2017-01-13 09:13:38.380 [BE] INFO  [AWT-EventQueue-0] - Destroying MD connection Manager
+2017-01-13 09:13:38.382 [BE] INFO  [AWT-EventQueue-0] - Destroying Scheduler
+2017-01-13 09:13:38.383 [BE] INFO  [AWT-EventQueue-0] - Destroying SnoozerFactory
+2017-01-13 09:13:38.383 [BE] INFO  [AWT-EventQueue-0] - Destroying MKT Data Wrapper
+2017-01-13 09:13:38.384 [BE] INFO  [AWT-EventQueue-0] - Destroying MKT Data MGR
+2017-01-13 09:13:38.384 [BE] INFO  [AWT-EventQueue-0] - Destroying SecDef Mgr
+2017-01-13 09:13:38.384 [BE] INFO  [AWT-EventQueue-0] - Destroying ACT Mgr
+2017-01-13 09:13:38.383 [BE] INFO  [JTS-Async-28] - Terminating async queue thread
+2017-01-13 09:13:38.386 [BE] INFO  [JTS-AsyncNonLocked-29] - Terminating async queue thread
+2017-01-13 09:13:38.387 [BE] INFO  [AWT-EventQueue-0] - Destroying NewsFacade
+2017-01-13 09:13:38.388 [BE] INFO  [AWT-EventQueue-0] - Destroying Book
+2017-01-13 09:13:38.388 [BE] INFO  [AWT-EventQueue-0] - destroyAsyncServices Done
+2017-01-13 09:13:38.388 [BE] INFO  [AWT-EventQueue-0] - Terminating Queues.
+2017-01-13 09:13:38.389 [BE] INFO  [AWT-EventQueue-0] - Done Terminating Queues
+2017-01-13 09:13:38.390 [BE] INFO  [AWT-EventQueue-0] - Disconnecting mcgw1.ibllc.com.cn:4000 with status DISCONNECT_ON_EXIT_SESSION
+2017-01-13 09:13:38.390 [BE] INFO  [AWT-EventQueue-0] - AuthTimeoutMonitor: deactivate
+2017-01-13 09:13:38.391 [BE] INFO  [JTS-CCPPingS2-27] - Terminating ping thread
+2017-01-13 09:13:38.391 [BE] INFO  [JTS-CCPDispatcherS2-33] - Terminating dispatcher
+2017-01-13 09:13:38.390 [BE] INFO  [JTS-CCPListenerS2-15] - Socket for connection mcgw1.ibllc.com.cn:4000 was closed by another thread
+2017-01-13 09:13:38.395 [BE] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2017-01-13 09:13:38.397 [BE] INFO  [JTS-CCPListenerS2-15] - Terminating Listener thread
+2017-01-13 09:13:38.423 [BE] INFO  [AWT-EventQueue-0] - Started invoke 'exitSessionGracefully' in AWT thread. In event thread = true
+2017-01-13 09:13:38.423 [BE] INFO  [AWT-EventQueue-0] - Started 'saveSettingsAndExitSession'
+2017-01-13 09:13:38.423 [BE] INFO  [AWT-EventQueue-0] - saveSettingsAndExitSession
+2017-01-13 09:13:38.424 [BE] INFO  [JTS-DisconnectedS2-75] - Before clearing batch requets for:2 settings-state:true settings:0
+2017-01-13 09:13:38.424 [BE] INFO  [JTS-DisconnectedS2-75] - Connection to ccp disconnected.
+2017-01-13 09:13:38.424 [BE] INFO  [JTS-DisconnectedS2-75] - Remove all completed orders
+2017-01-13 09:13:38.425 [BE] INFO  [JTS-DisconnectedS2-75] - JSONSecDefFarmConnector onDisconnected
+2017-01-13 09:13:38.426 [BE] INFO  [JTS-DisconnectedS2-75] - Disconnected from a CCP. Cleaning up state...
+2017-01-13 09:13:38.426 [BE] INFO  [JTS-DisconnectedS2-75] - Releasing the send permit...
+2017-01-13 09:13:38.426 [BE] INFO  [JTS-DisconnectedS2-75] - Storing background batch requests for retry:[]
+2017-01-13 09:13:38.426 [BE] INFO  [AWT-EventQueue-0] - Shutdown started. 21 tasks to execute.
+2017-01-13 09:13:38.426 [BE] INFO  [JTS-DisconnectedS2-75] - IBGateway connection to ccp disconnected.
+2017-01-13 09:13:38.431 [BE] INFO  [JTS-AsyncQueryManager-79] - Starting async query manager
+2017-01-13 09:13:38.443 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - |rfODM|odmtp.a@5c23b37c | <init>()#89 | Creating odm transporter | 0 | 
+2017-01-13 09:13:38.468 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - Nia working directory: D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\
+2017-01-13 09:13:38.470 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - |NIA|com.ib.nia.control.k@7b9da2bf | <init>()#39 | Sys TimeZone | Asia/Shanghai | TimeZoneOffset | -43200000 | EST5EDT | 
+2017-01-13 09:13:38.484 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - |NIA|com.ib.nia.histdb.h | a()#197 | NIA2 db exists. Loading persisted NIA configs... | 
+2017-01-13 09:13:38.484 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - |NIA|com.ib.nia.histdb.h@234532f9 | b()#110 | connecting to NIA RDBMS... | TWS | jdbc:hsqldb:D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\nia2 | 
+2017-01-13 09:13:38.933 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - |NIA|com.ib.nia.histdb.h@234532f9 | b()#115 | Connection done. | 2.2.2 | 
+2017-01-13 09:13:39.012 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - |NIA|com.ib.nia.histdb.d | a()#53 | Use predefined table | DefaultVolCurveChannels | 
+2017-01-13 09:13:39.015 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - |NIA|com.ib.nia.histdb.d | a()#60 | Removed stale historical data record no:  | 0 | 
+2017-01-13 09:13:39.054 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - |NIA|com.ib.nia.histdb.g | a()#72 | Use predefined table | ModelVolCurves2 | 
+2017-01-13 09:13:39.076 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - |NIA|com.ib.nia.histdb.g@2e78279a | a()#86 | Removed stale manual volcurve data record no:  | 0 | 
+2017-01-13 09:13:39.098 [BE] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.control.handler.j@10321c7e | a()#41 | Nia STARTUP | 
+2017-01-13 09:13:39.103 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\/traderMap.txt does not exist
+2017-01-13 09:13:39.113 [BE] INFO  [JTS-ShutdownTask-Prepare_Shutdown_IA-78] - IA: AccountManager has no base Currency. Riskfeed uses USD as default
+2017-01-13 09:13:39.113 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Control settins saving started.
+2017-01-13 09:13:39.113 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Update order defaults
+2017-01-13 09:13:39.114 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Saving IA settings
+2017-01-13 09:13:39.114 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Saving displayed msg list
+2017-01-13 09:13:39.118 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Saving xml
+2017-01-13 09:13:39.118 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Check settings BatchRequests are back:2 res:true
+2017-01-13 09:13:39.118 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Saving settings to D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\ibg.xml
+2017-01-13 09:13:39.214 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Verifying saved file
+2017-01-13 09:13:39.265 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - autoexport set to stop: /home/gushaorong/Jts/, start: , stop: 
+2017-01-13 09:13:39.266 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:39.266 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:39.266 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:39.266 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:39.266 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:39.266 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - DelayedMarketDataList is created: Approved: ; Notified: ; Pre-populated: null
+2017-01-13 09:13:39.275 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Verifying succeeded
+2017-01-13 09:13:39.275 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Renaming saved file
+2017-01-13 09:13:39.277 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Renaming succeeded
+2017-01-13 09:13:39.277 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Settings file size:323600
+2017-01-13 09:13:39.278 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Copying file D:\data\pipa\ibgateway的docker文件\Jts\dcilrkuwvl\ibg.Fri.xml
+2017-01-13 09:13:39.281 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Copying succeeded
+2017-01-13 09:13:39.281 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Done saving settings
+2017-01-13 09:13:39.281 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Saving market rules
+2017-01-13 09:13:39.286 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Saving sizeop settings
+2017-01-13 09:13:39.286 [BE] INFO  [JTS-ShutdownTask-Saving_Settings-80] - Control settins saving finished.
+2017-01-13 09:13:39.288 [BE] INFO  [JTS-ShutdownTask-Shutdown_IA-82] - Disabling IA
+2017-01-13 09:13:39.288 [BE] INFO  [JTS-ShutdownTask-Shutdown_IA-82] - Started getting sync 'S.lock()' before 'Disabling IA'
+2017-01-13 09:13:39.288 [BE] INFO  [JTS-ShutdownTask-Shutdown_IA-82] - Got 'S.lock()' before 'Disabling IA'
+2017-01-13 09:13:39.288 [BE] INFO  [JTS-ShutdownTask-Shutdown_IA-82] - Started shutdown IA session
+2017-01-13 09:13:39.288 [BE] INFO  [JTS-ShutdownTask-Shutdown_IA-82] - Stopping IA session
+2017-01-13 09:13:39.289 [BE] INFO  [JTS-ShutdownTask-Shutdown_IA-82] - |NIA|com.ib.nia.control.l@32a8139a | destroy()#46 | nia base timer is shut down | 
+2017-01-13 09:13:39.292 [BE] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.e@45b8d9b9 | o()#101 | destroy | 
+2017-01-13 09:13:39.295 [BE] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.histdb.h@234532f9 | destroy()#268 | Shutdown NIA RDBMS | 
+2017-01-13 09:13:39.754 [BE] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.histdb.h@234532f9 | destroy()#271 | NIA DB Closed | 
+2017-01-13 09:13:39.757 [BE] INFO  [NIA-Input-Queue-2] - |NIA|com.ib.nia.control.handler.j@10321c7e | a()#46 | Nia SHUTDOWN | 
+2017-01-13 09:13:39.758 [BE] INFO  [JTS-ShutdownTask-Shutdown_IA-82] - |NIA|com.ib.nia.e@45b8d9b9 | o()#110 | already destroyed | 
+2017-01-13 09:13:39.760 [BE] INFO  [JTS-AsyncQueryManager-79] - Terminating async query manager
+2017-01-13 09:13:39.761 [BE] INFO  [JTS-ShutdownTask-Shutdown_IA-82] - Finished shutdown IA session
+2017-01-13 09:13:39.802 [BE] INFO  [JTS-ExecNotifier-34] - Terminating async queue thread
+2017-01-13 09:13:39.810 [BE] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-90] - Disconnecting from farms and hmds
+2017-01-13 09:13:39.810 [BE] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-90] - Disconnecting all farm connections
+2017-01-13 09:13:39.811 [BE] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-90] - Disconnecting all farm connections
+2017-01-13 09:13:39.811 [BE] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-90] - Disconnecting all farm connections
+2017-01-13 09:13:39.813 [BE] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-90] - Farm hfarm/DISCONNECTED: Stopping connection
+2017-01-13 09:13:39.813 [BE] INFO  [JTS-ShutdownTask-Disconnecting_from_Farms_and_Hmds-90] - Farm hkhmds/DISCONNECTED: Stopping connection
+2017-01-13 09:13:39.814 [BE] INFO  [JTS-ShutdownTask-Clearing_batch_requests-91] - Before clearing batch requets for:0 settings-state:null settings:0
+2017-01-13 09:13:39.815 [BE] INFO  [JTS-ShutdownTask-Closing_socket-93] - Close socket.
+2017-01-13 09:13:39.815 [BE] INFO  [JTS-ShutdownTask-Closing_audit-94] - Close audit log-file.
+2017-01-13 09:13:39.816 [BE] INFO  [JTS-Order-Audit-14] - Terminating async queue thread
+2017-01-13 09:13:39.816 [BE] INFO  [JTS-ShutdownTask-Disconnecting_trades_sync_mgr-95] - Disconnect 'TradesSyncMgr'
+2017-01-13 09:13:39.817 [BE] INFO  [JTS-ShutdownTask-Closing_login_window-96] - Close login window.
+2017-01-13 09:13:39.817 [BE] INFO  [JTS-ShutdownTask-Closing_login_window-96] - Disconnecting all farm connections
+2017-01-13 09:13:39.817 [BE] INFO  [JTS-ShutdownTask-Closing_login_window-96] - Disconnecting all farm connections
+2017-01-13 09:13:39.817 [BE] INFO  [JTS-ShutdownTask-Closing_login_window-96] - Disconnecting all farm connections
+2017-01-13 09:13:39.817 [BE] INFO  [AWT-EventQueue-0] - Shutdown thread finished.
+2017-01-13 09:13:39.817 [BE] INFO  [AWT-EventQueue-0] - Finished 'saveSettingsAndExitSession'
+2017-01-13 09:13:39.824 [BE] INFO  [pool-2-thread-1] - |NIA|Thread[NIA-DBSHUTDOWNHOOK,6,main] | run()#395 | HSQLDB connections are closed | 

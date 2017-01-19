@@ -1,0 +1,14 @@
+#!/bin/bash
+rm /.vnc -rf
+cd /ib-gateway
+#socat TCP-LISTEN:4003,fork TCP:0.0.0.0:4001&
+#xvfb-daemon-run \
+#  java -cp total.jar:log4j-1.2.17.jar:twslaunch-install4j-1.5.jar:twslaunch.jar:jts4launch.jar \
+#  -Dsun.java2d.noddraw=true \
+#  -Dswing.boldMetal=false \
+#  -Dsun.locale.formatasdefault=true -Xmx512M \
+#  ibgateway.GWClient .
+
+IBController-3.2.0/IBControllerGatewayStart.sh
+sleep 15
+tail -f /ib-gateway/IBController-3.2.0/Logs/ibc-3.2.0_*
